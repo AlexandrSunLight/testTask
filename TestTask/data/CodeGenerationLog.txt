@@ -1,0 +1,2553 @@
+****** Start Log Message ******
+Web Recorder version : 12.60.971.0 
+Recording Mode: URL-Based script
+	Using concurrent groups
+Recording headers not in list:
+	accept
+	accept-charset
+	accept-encoding
+	accept-language
+	accept-ranges
+	age
+	allow
+	cache-control
+	content-base
+	content-disposition
+	content-encoding
+	content-language
+	content-location
+	content-md5
+	content-range
+	content-type
+	date
+	etag
+	expires
+	from
+	if-modified-since
+	if-match
+	if-none-match
+	if-range
+	if-unmodified-since
+	location
+	last-modified
+	max-forwards
+	pragma
+	public
+	range
+	retry-after
+	server
+	transfer-encoding
+	upgrade
+	user-agent
+	vary
+	via
+	warning
+	method
+	path
+	scheme
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.60.971.0
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 10 ******
+GET /computers HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: computer-database.gatling.io
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 10 Ended $$$$$$
+
+****** Response Header For Transaction With Id 10 ******
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Wed, 05 Feb 2020 13:54:38 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 7252
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+$$$$$$ Response Header For Transaction With Id 10 Ended $$$$$$
+
+****** Response Body For Transaction With Id 10 ******
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    </head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>849 computers found</h1>
+
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/381">ACE</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/501">AN/FSQ-32</a></td>
+                            <td>
+                                01 Jan 1960
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/500">AN/FSQ-7</a></td>
+                            <td>
+                                01 Jan 1958
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/388">APEXC</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/355">ARRA</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/385">ASCI Blue Mountain</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/313">ASCI Blue Pacific</a></td>
+                            <td>
+                                01 Jan 1998
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/384">ASCI Purple</a></td>
+                            <td>
+                                01 Jan 2005
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/382">ASCI Red</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/383">ASCI Thors Hammer</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev disabled">
+                        <a>&larr; Previous</a>
+                    </li>
+                
+                <li class="current">
+                    <a>Displaying 1 to 10 of 849</a>
+                </li>
+                
+                    <li class="next">
+                        <a href="/computers?p=1">Next &rarr;</a>
+                    </li> 
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            
+$$$$$$ Response Body For Transaction With Id 10 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 10 ****** (Location Flag : tFlagInsertEnd, Location ID : 10)
+	web_url("computers",
+		"URL=http://computer-database.gatling.io/computers",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t1.inf",
+		"Mode=HTTP",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 10 Ended $$$$$$
+
+****** Request Header For Transaction With Id 16 ******
+GET /assets/stylesheets/bootstrap.min.css HTTP/1.1
+Accept: text/css, */*
+Referer: http://computer-database.gatling.io/computers
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: computer-database.gatling.io
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 16 Ended $$$$$$
+
+****** Response Header For Transaction With Id 16 ******
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Wed, 05 Feb 2020 13:54:38 GMT
+Content-Type: text/css; charset=utf-8
+Content-Length: 45379
+Connection: keep-alive
+Keep-Alive: timeout=5
+Last-Modified: Wed, 22 Jun 2016 09:08:51 GMT
+Etag: "dd2d3e2027427a0c32b4781f7b511bb1be90e6bc"
+Cache-Control: max-age=3600
+
+
+$$$$$$ Response Header For Transaction With Id 16 Ended $$$$$$
+
+****** Response Body For Transaction With Id 16 ******
+html,body{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;}
+q:before,q:after,blockquote:before,blockquote:after{content:"";}
+html{overflow-y:scroll;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+a:focus{outline:thin dotted;}
+a:hover,a:active{outline:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]){display:none;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+img{border:0;-ms-interpolation-mode:bicubic;}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;}
+button,input{line-height:normal;*overflow:visible;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;}
+input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+textarea{overflow:auto;vertical-align:top;}
+html,body{background-color:#ffffff;}
+body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:18px;color:#404040;}
+.container{width:940px;margin-left:auto;margin-right:auto;zoom:1;}.container:before,.container:after{display:table;content:"";zoom:1;*display:inline;}
+.container:after{clear:both;}
+.container-fluid{position:relative;min-width:940px;padding-left:20px;padding-right:20px;zoom:1;}.container-fluid:before,.container-fluid:after{display:table;content:"";zoom:1;*display:inline;}
+.container-fluid:after{clear:both;}
+.container-fluid>.sidebar{float:left;width:220px;}
+.container-fluid>.content{margin-left:240px;}
+a{color:#0069d6;text-decoration:none;line-height:inherit;font-weight:inherit;}a:hover{color:#00438a;text-decoration:underline;}
+.pull-right{float:right;}
+.pull-left{float:left;}
+.hide{display:none;}
+.show{display:block;}
+.row{zoom:1;margin-left:-20px;}.row:before,.row:after{display:table;content:"";zoom:1;*display:inline;}
+.row:after{clear:both;}
+[class*="span"]{display:inline;float:left;margin-left:20px;}
+.span1{width:40px;}
+.span2{width:100px;}
+.span3{width:160px;}
+.span4{width:220px;}
+.span5{width:280px;}
+.span6{width:340px;}
+.span7{width:400px;}
+.span8{width:460px;}
+.span9{width:520px;}
+.span10{width:580px;}
+.span11{width:640px;}
+.span12{width:700px;}
+.span13{width:760px;}
+.span14{width:820px;}
+.span15{width:880px;}
+.span16{width:940px;}
+.span17{width:1000px;}
+.span18{width:1060px;}
+.span19{width:1120px;}
+.span20{width:1180px;}
+.span21{width:1240px;}
+.span22{width:1300px;}
+.span23{width:1360px;}
+.span24{width:1420px;}
+.offset1{margin-left:80px;}
+.offset2{margin-left:140px;}
+.offset3{margin-left:200px;}
+.offset4{margin-left:260px;}
+.offset5{margin-left:320px;}
+.offset6{margin-left:380px;}
+.offset7{margin-left:440px;}
+.offset8{margin-left:500px;}
+.offset9{margin-left:560px;}
+.offset10{margin-left:620px;}
+.offset11{margin-left:680px;}
+.offset12{margin-left:740px;}
+.span-one-third{width:300px;}
+.span-two-thirds{width:620px;}
+.offset-one-third{margin-left:340px;}
+.offset-two-thirds{margin-left:660px;}
+p{font-size:13px;font-weight:normal;line-height:18px;margin-bottom:9px;}p small{font-size:11px;color:#bfbfbf;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;color:#404040;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{color:#bfbfbf;}
+h1{margin-bottom:18px;font-size:30px;line-height:36px;}h1 small{font-size:18px;}
+h2{font-size:24px;line-height:36px;}h2 small{font-size:14px;}
+h3,h4,h5,h6{line-height:36px;}
+h3{font-size:18px;}h3 small{font-size:14px;}
+h4{font-size:16px;}h4 small{font-size:12px;}
+h5{font-size:14px;}
+h6{font-size:13px;color:#bfbfbf;text-transform:uppercase;}
+ul,ol{margin:0 0 18px 25px;}
+ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
+ul{list-style:disc;}
+ol{list-style:decimal;}
+li{line-height:18px;color:#808080;}
+ul.unstyled{list-style:none;margin-left:0;}
+dl{margin-bottom:18px;}dl dt,dl dd{line-height:18px;}
+dl dt{font-weight:bold;}
+dl dd{margin-left:9px;}
+hr{margin:20px 0 19px;border:0;border-bottom:1px solid #eee;}
+strong{font-style:inherit;font-weight:bold;}
+em{font-style:italic;font-weight:inherit;line-height:inherit;}
+.muted{color:#bfbfbf;}
+blockquote{margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}blockquote p{font-size:14px;font-weight:300;line-height:18px;margin-bottom:0;}
+blockquote small{display:block;font-size:12px;font-weight:300;line-height:18px;color:#bfbfbf;}blockquote small:before{content:'\2014 \00A0';}
+address{display:block;line-height:18px;margin-bottom:18px;}
+code,pre{padding:0 3px 2px;font-family:Monaco, Andale Mono, Courier New, monospace;font-size:12px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+code{background-color:#fee9cc;color:rgba(0, 0, 0, 0.75);padding:1px 3px;}
+pre{background-color:#f5f5f5;display:block;padding:8.5px;margin:0 0 18px;line-height:18px;font-size:12px;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+form{margin-bottom:18px;}
+fieldset{margin-bottom:18px;padding-top:18px;}fieldset legend{display:block;padding-left:150px;font-size:19.5px;line-height:1;color:#404040;*padding:0 0 5px 145px;*line-height:1.5;}
+form .clearfix{margin-bottom:18px;zoom:1;}form .clearfix:before,form .clearfix:after{display:table;content:"";zoom:1;*display:inline;}
+form .clearfix:after{clear:both;}
+label,input,select,textarea{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:normal;}
+label{padding-top:6px;font-size:13px;line-height:18px;float:left;width:130px;text-align:right;color:#404040;}
+form .input{margin-left:150px;}
+input[type=checkbox],input[type=radio]{cursor:pointer;}
+input,textarea,select,.uneditable-input{display:inline-block;width:210px;height:18px;padding:4px;font-size:13px;line-height:18px;color:#808080;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+input[type=checkbox],input[type=radio]{width:auto;height:auto;padding:0;margin:3px 0;*margin-top:0;line-height:normal;border:none;}
+input[type=file]{background-color:#ffffff;padding:initial;border:initial;line-height:initial;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+input[type=button],input[type=reset],input[type=submit]{width:auto;height:auto;}
+select,input[type=file]{height:27px;line-height:27px;*margin-top:4px;}
+select[multiple]{height:inherit;}
+textarea{height:auto;}
+.uneditable-input{background-color:#ffffff;display:block;border-color:#eee;-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);-moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);cursor:not-allowed;}
+:-moz-placeholder{color:#bfbfbf;}
+::-webkit-input-placeholder{color:#bfbfbf;}
+input,textarea{-webkit-transition:border linear 0.2s,box-shadow linear 0.2s;-moz-transition:border linear 0.2s,box-shadow linear 0.2s;-ms-transition:border linear 0.2s,box-shadow linear 0.2s;-o-transition:border linear 0.2s,box-shadow linear 0.2s;transition:border linear 0.2s,box-shadow linear 0.2s;-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);}
+input:focus,textarea:focus{outline:0;border-color:rgba(82, 168, 236, 0.8);-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);}
+input[type=file]:focus,input[type=checkbox]:focus,select:focus{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:1px dotted #666;}
+form div.clearfix.error{background:#fae5e3;padding:10px 0;margin:-10px 0 10px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}form div.clearfix.error>label,form div.clearfix.error span.help-inline,form div.clearfix.error span.help-block{color:#9d261d;}
+form div.clearfix.error input,form div.clearfix.error textarea{border-color:#c87872;-webkit-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);-moz-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);box-shadow:0 0 3px rgba(171, 41, 32, 0.25);}form div.clearfix.error input:focus,form div.clearfix.error textarea:focus{border-color:#b9554d;-webkit-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);-moz-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);box-shadow:0 0 6px rgba(171, 41, 32, 0.5);}
+form div.clearfix.error .input-prepend span.add-on,form div.clearfix.error .input-append span.add-on{background:#f4c8c5;border-color:#c87872;color:#b9554d;}
+.input-mini,input.mini,textarea.mini,select.mini{width:60px;}
+.input-small,input.small,textarea.small,select.small{width:90px;}
+.input-medium,input.medium,textarea.medium,select.medium{width:150px;}
+.input-large,input.large,textarea.large,select.large{width:210px;}
+.input-xlarge,input.xlarge,textarea.xlarge,select.xlarge{width:270px;}
+.input-xxlarge,input.xxlarge,textarea.xxlarge,select.xxlarge{width:530px;}
+textarea.xxlarge{overflow-y:auto;}
+input.span1,textarea.span1,select.span1{display:inline-block;float:none;width:30px;margin-left:0;}
+input.span2,textarea.span2,select.span2{display:inline-block;float:none;width:90px;margin-left:0;}
+input.span3,textarea.span3,select.span3{display:inline-block;float:none;width:150px;margin-left:0;}
+input.span4,textarea.span4,select.span4{display:inline-block;float:none;width:210px;margin-left:0;}
+input.span5,textarea.span5,select.span5{display:inline-block;float:none;width:270px;margin-left:0;}
+input.span6,textarea.span6,select.span6{display:inline-block;float:none;width:330px;margin-left:0;}
+input.span7,textarea.span7,select.span7{display:inline-block;float:none;width:390px;margin-left:0;}
+input.span8,textarea.span8,select.span8{display:inline-block;float:none;width:450px;margin-left:0;}
+input.span9,textarea.span9,select.span9{display:inline-block;float:none;width:510px;margin-left:0;}
+input.span10,textarea.span10,select.span10{display:inline-block;float:none;width:570px;margin-left:0;}
+input.span11,textarea.span11,select.span11{display:inline-block;float:none;width:630px;margin-left:0;}
+input.span12,textarea.span12,select.span12{display:inline-block;float:none;width:690px;margin-left:0;}
+input.span13,textarea.span13,select.span13{display:inline-block;float:none;width:750px;margin-left:0;}
+input.span14,textarea.span14,select.span14{display:inline-block;float:none;width:810px;margin-left:0;}
+input.span15,textarea.span15,select.span15{display:inline-block;float:none;width:870px;margin-left:0;}
+input.span16,textarea.span16,select.span16{display:inline-block;float:none;width:930px;margin-left:0;}
+input[disabled],select[disabled],textarea[disabled],input[readonly],select[readonly],textarea[readonly]{background-color:#f5f5f5;border-color:#ddd;cursor:not-allowed;}
+.actions{background:#f5f5f5;margin-top:18px;margin-bottom:18px;padding:17px 20px 18px 150px;border-top:1px solid #ddd;-webkit-border-radius:0 0 3px 3px;-moz-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px;}.actions .secondary-action{float:right;}.actions .secondary-action a{line-height:30px;}.actions .secondary-action a:hover{text-decoration:underline;}
+.help-inline,.help-block{font-size:11px;line-height:18px;color:#bfbfbf;}
+.help-inline{padding-left:5px;*position:relative;*top:-5px;}
+.help-block{display:block;max-width:600px;}
+.inline-inputs{color:#808080;}.inline-inputs span,.inline-inputs input{display:inline-block;}
+.inline-inputs input.mini{width:60px;}
+.inline-inputs input.small{width:90px;}
+.inline-inputs span{padding:0 2px 0 1px;}
+.input-prepend input,.input-append input{-webkit-border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0;}
+.input-prepend .add-on,.input-append .add-on{position:relative;background:#f5f5f5;border:1px solid #ccc;z-index:2;float:left;display:block;width:auto;min-width:16px;height:18px;padding:4px 4px 4px 5px;margin-right:-1px;font-weight:normal;line-height:18px;color:#bfbfbf;text-align:center;text-shadow:0 1px 0 #ffffff;-webkit-border-radius:3px 0 0 3px;-moz-border-radius:3px 0 0 3px;border-radius:3px 0 0 3px;}
+.input-prepend .active,.input-append .active{background:#a9dba9;border-color:#46a546;}
+.input-prepend .add-on{*margin-top:1px;}
+.input-append input{float:left;-webkit-border-radius:3px 0 0 3px;-moz-border-radius:3px 0 0 3px;border-radius:3px 0 0 3px;}
+.input-append .add-on{-webkit-border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0;margin-right:0;margin-left:-1px;}
+.inputs-list{margin:0 0 5px;width:100%;}.inputs-list li{display:block;padding:0;width:100%;}
+.inputs-list label{display:block;float:none;width:auto;padding:0;line-height:18px;text-align:left;white-space:normal;}.inputs-list label strong{color:#808080;}
+.inputs-list label small{font-size:11px;font-weight:normal;}
+.inputs-list .inputs-list{margin-left:25px;margin-bottom:10px;padding-top:0;}
+.inputs-list:first-child{padding-top:6px;}
+.inputs-list li+li{padding-top:2px;}
+.inputs-list input[type=radio],.inputs-list input[type=checkbox]{margin-bottom:0;}
+.form-stacked{padding-left:20px;}.form-stacked fieldset{padding-top:9px;}
+.form-stacked legend{padding-left:0;}
+.form-stacked label{display:block;float:none;width:auto;font-weight:bold;text-align:left;line-height:20px;padding-top:0;}
+.form-stacked .clearfix{margin-bottom:9px;}.form-stacked .clearfix div.input{margin-left:0;}
+.form-stacked .inputs-list{margin-bottom:0;}.form-stacked .inputs-list li{padding-top:0;}.form-stacked .inputs-list li label{font-weight:normal;padding-top:0;}
+.form-stacked div.clearfix.error{padding-top:10px;padding-bottom:10px;padding-left:10px;margin-top:0;margin-left:-10px;}
+.form-stacked .actions{margin-left:-20px;padding-left:20px;}
+table{width:100%;margin-bottom:18px;padding:0;border-collapse:separate;*border-collapse:collapse;font-size:13px;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left;}
+table th{padding-top:9px;font-weight:bold;vertical-align:middle;border-bottom:1px solid #ddd;}
+table td{vertical-align:top;}
+table th+th,table td+td{border-left:1px solid #ddd;}
+table tr+tr td{border-top:1px solid #ddd;}
+table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
+table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
+table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
+table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0;}
+.zebra-striped tbody tr:nth-child(odd) td{background-color:#f9f9f9;}
+.zebra-striped tbody tr:hover td{background-color:#f5f5f5;}
+table .header{cursor:pointer;}table .header:after{content:"";float:right;margin-top:7px;border-width:0 4px 4px;border-style:solid;border-color:#000 transparent;visibility:hidden;}
+table .headerSortUp,table .headerSortDown{background-color:rgba(141, 192, 219, 0.25);text-shadow:0 1px 1px rgba(255, 255, 255, 0.75);}
+table .header:hover:after{visibility:visible;}
+table .headerSortDown:after,table .headerSortDown:hover:after{visibility:visible;filter:alpha(opacity=60);-khtml-opacity:0.6;-moz-opacity:0.6;opacity:0.6;}
+table .headerSortUp:after{border-bottom:none;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #000;visibility:visible;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;filter:alpha(opacity=60);-khtml-opacity:0.6;-moz-opacity:0.6;opacity:0.6;}
+table .blue{color:#049cdb;border-bottom-color:#049cdb;}
+table .headerSortUp.blue,table .headerSortDown.blue{background-color:#ade6fe;}
+table .green{color:#46a546;border-bottom-color:#46a546;}
+table .headerSortUp.green,table .headerSortDown.green{background-color:#cdeacd;}
+table .red{color:#9d261d;border-bottom-color:#9d261d;}
+table .headerSortUp.red,table .headerSortDown.red{background-color:#f4c8c5;}
+table .yellow{color:#ffc40d;border-bottom-color:#ffc40d;}
+table .headerSortUp.yellow,table .headerSortDown.yellow{background-color:#fff6d9;}
+table .orange{color:#f89406;border-bottom-color:#f89406;}
+table .headerSortUp.orange,table .headerSortDown.orange{background-color:#fee9cc;}
+table .purple{color:#7a43b6;border-bottom-color:#7a43b6;}
+table .headerSortUp.purple,table .headerSortDown.purple{background-color:#e2d5f0;}
+.topbar{height:40px;position:fixed;top:0;left:0;right:0;z-index:10000;overflow:visible;}.topbar a{color:#bfbfbf;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);}
+.topbar h3 a:hover,.topbar .brand a:hover,.topbar ul .active>a{background-color:#333;background-color:rgba(255, 255, 255, 0.05);color:#ffffff;text-decoration:none;}
+.topbar h3{position:relative;}
+.topbar h3 a,.topbar .brand{float:left;display:block;padding:8px 20px 12px;margin-left:-20px;color:#ffffff;font-size:20px;font-weight:200;line-height:1;}
+.topbar p{margin:0;line-height:40px;}.topbar p a:hover{background-color:transparent;color:#ffffff;}
+.topbar form{float:left;margin:5px 0 0 0;position:relative;filter:alpha(opacity=100);-khtml-opacity:1;-moz-opacity:1;opacity:1;}
+.topbar form.pull-right{float:right;}
+.topbar input{background-color:#444;background-color:rgba(255, 255, 255, 0.3);font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:normal;font-weight:13px;line-height:1;padding:4px 9px;color:#ffffff;color:rgba(255, 255, 255, 0.75);border:1px solid #111;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.1),0 1px 0px rgba(255, 255, 255, 0.25);-moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.1),0 1px 0px rgba(255, 255, 255, 0.25);box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.1),0 1px 0px rgba(255, 255, 255, 0.25);-webkit-transition:none;-moz-transition:none;-ms-transition:none;-o-transition:none;transition:none;}.topbar input:-moz-placeholder{color:#e6e6e6;}
+.topbar input::-webkit-input-placeholder{color:#e6e6e6;}
+.topbar input:hover{background-color:#bfbfbf;background-color:rgba(255, 255, 255, 0.5);color:#ffffff;}
+.topbar input:focus,.topbar input.focused{outline:0;background-color:#ffffff;color:#404040;text-shadow:0 1px 0 #ffffff;border:0;padding:5px 10px;-webkit-box-shadow:0 0 3px rgba(0, 0, 0, 0.15);-moz-box-shadow:0 0 3px rgba(0, 0, 0, 0.15);box-shadow:0 0 3px rgba(0, 0, 0, 0.15);}
+.topbar-inner,.topbar .fill{background-color:#222;background-color:#222222;background-repeat:repeat-x;background-image:-khtml-gradient(linear, left top, left bottom, from(#333333), to(#222222));background-image:-moz-linear-gradient(top, #333333, #222222);background-image:-ms-linear-gradient(top, #333333, #222222);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #222222));background-image:-webkit-linear-gradient(top, #333333, #222222);background-image:-o-linear-gradient(top, #333333, #222222);background-image:linear-gradient(top, #333333, #222222);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);}
+.topbar div>ul,.nav{display:block;float:left;margin:0 10px 0 0;position:relative;left:0;}.topbar div>ul>li,.nav>li{display:block;float:left;}
+.topbar div>ul a,.nav a{display:block;float:none;padding:10px 10px 11px;line-height:19px;text-decoration:none;}.topbar div>ul a:hover,.nav a:hover{color:#ffffff;text-decoration:none;}
+.topbar div>ul .active>a,.nav .active>a{background-color:#222;background-color:rgba(0, 0, 0, 0.5);}
+.topbar div>ul.secondary-nav,.nav.secondary-nav{float:right;margin-left:10px;margin-right:0;}.topbar div>ul.secondary-nav .menu-dropdown,.nav.secondary-nav .menu-dropdown,.topbar div>ul.secondary-nav .dropdown-menu,.nav.secondary-nav .dropdown-menu{right:0;border:0;}
+.topbar div>ul a.menu:hover,.nav a.menu:hover,.topbar div>ul li.open .menu,.nav li.open .menu,.topbar div>ul .dropdown-toggle:hover,.nav .dropdown-toggle:hover,.topbar div>ul .dropdown.open .dropdown-toggle,.nav .dropdown.open .dropdown-toggle{background:#444;background:rgba(255, 255, 255, 0.05);}
+.topbar div>ul .menu-dropdown,.nav .menu-dropdown,.topbar div>ul .dropdown-menu,.nav .dropdown-menu{background-color:#333;}.topbar div>ul .menu-dropdown a.menu,.nav .menu-dropdown a.menu,.topbar div>ul .dropdown-menu a.menu,.nav .dropdown-menu a.menu,.topbar div>ul .menu-dropdown .dropdown-toggle,.nav .menu-dropdown .dropdown-toggle,.topbar div>ul .dropdown-menu .dropdown-toggle,.nav .dropdown-menu .dropdown-toggle{color:#ffffff;}.topbar div>ul .menu-dropdown a.menu.open,.nav .menu-dropdown a.menu.open,.topbar div>ul .dropdown-menu a.menu.open,.nav .dropdown-menu a.menu.open,.topbar div>ul .menu-dropdown .dropdown-toggle.open,.nav .menu-dropdown .dropdown-toggle.open,.topbar div>ul .dropdown-menu .dropdown-toggle.open,.nav .dropdown-menu .dropdown-toggle.open{background:#444;background:rgba(255, 255, 255, 0.05);}
+.topbar div>ul .menu-dropdown li a,.nav .menu-dropdown li a,.topbar div>ul .dropdown-menu li a,.nav .dropdown-menu li a{color:#999;text-shadow:0 1px 0 rgba(0, 0, 0, 0.5);}.topbar div>ul .menu-dropdown li a:hover,.nav .menu-dropdown li a:hover,.topbar div>ul .dropdown-menu li a:hover,.nav .dropdown-menu li a:hover{background-color:#191919;background-repeat:repeat-x;background-image:-khtml-gradient(linear, left top, left bottom, from(#292929), to(#191919));background-image:-moz-linear-gradient(top, #292929, #191919);background-image:-ms-linear-gradient(top, #292929, #191919);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #292929), color-stop(100%, #191919));background-image:-webkit-linear-gradient(top, #292929, #191919);background-image:-o-linear-gradient(top, #292929, #191919);background-image:linear-gradient(top, #292929, #191919);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#191919', GradientType=0);color:#ffffff;}
+.topbar div>ul .menu-dropdown .active a,.nav .menu-dropdown .active a,.topbar div>ul .dropdown-menu .active a,.nav .dropdown-menu .active a{color:#ffffff;}
+.topbar div>ul .menu-dropdown .divider,.nav .menu-dropdown .divider,.topbar div>ul .dropdown-menu .divider,.nav .dropdown-menu .divider{background-color:#222;border-color:#444;}
+.topbar ul .menu-dropdown li a,.topbar ul .dropdown-menu li a{padding:4px 15px;}
+li.menu,.dropdown{position:relative;}
+a.menu:after,.dropdown-toggle:after{width:0;height:0;display:inline-block;content:"&darr;";text-indent:-99999px;vertical-align:top;margin-top:8px;margin-left:4px;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #ffffff;filter:alpha(opacity=50);-khtml-opacity:0.5;-moz-opacity:0.5;opacity:0.5;}
+.menu-dropdown,.dropdown-menu{background-color:#ffffff;float:left;display:none;position:absolute;top:40px;z-index:900;min-width:160px;max-width:220px;_width:160px;margin-left:0;margin-right:0;padding:6px 0;zoom:1;border-color:#999;border-color:rgba(0, 0, 0, 0.2);border-style:solid;border-width:0 1px 1px;-webkit-border-radius:0 0 6px 6px;-moz-border-radius:0 0 6px 6px;border-radius:0 0 6px 6px;-webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.2);-moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.2);box-shadow:0 2px 4px rgba(0, 0, 0, 0.2);-webkit-background-clip:padding-box;-moz-background-clip:padding-box;background-clip:padding-box;}.menu-dropdown li,.dropdown-menu li{float:none;display:block;background-color:none;}
+.menu-dropdown .divider,.dropdown-menu .divider{height:1px;margin:5px 0;overflow:hidden;background-color:#eee;border-bottom:1px solid #ffffff;}
+.topbar .dropdown-menu a,.dropdown-menu a{display:block;padding:4px 15px;clear:both;font-weight:normal;line-height:18px;color:#808080;text-shadow:0 1px 0 #ffffff;}.topbar .dropdown-menu a:hover,.dropdown-menu a:hover{background-color:#dddddd;background-repeat:repeat-x;background-image:-khtml-gradient(linear, left top, left bottom, from(#eeeeee), to(#dddddd));background-image:-moz-linear-gradient(top, #eeeeee, #dddddd);background-image:-ms-linear-gradient(top, #eeeeee, #dddddd);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #dddddd));background-image:-webkit-linear-gradient(top, #eeeeee, #dddddd);background-image:-o-linear-gradient(top, #eeeeee, #dddddd);background-image:linear-gradient(top, #eeeeee, #dddddd);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#dddddd', GradientType=0);color:#404040;text-decoration:none;-webkit-box-shadow:inset 0 1px 0 rgba(0, 0, 0, 0.025),inset 0 -1px rgba(0, 0, 0, 0.025);-moz-box-shadow:inset 0 1px 0 rgba(0, 0, 0, 0.025),inset 0 -1px rgba(0, 0, 0, 0.025);box-shadow:inset 0 1px 0 rgba(0, 0, 0, 0.025),inset 0 -1px rgba(0, 0, 0, 0.025);}
+.open .menu,.dropdown.open .menu,.open .dropdown-toggle,.dropdown.open .dropdown-toggle{color:#ffffff;background:#ccc;background:rgba(0, 0, 0, 0.3);}
+.open .menu-dropdown,.dropdown.open .menu-dropdown,.open .dropdown-menu,.dropdown.open .dropdown-menu{display:block;}
+.tabs,.pills{margin:0 0 20px;padding:0;list-style:none;zoom:1;}.tabs:before,.pills:before,.tabs:after,.pills:after{display:table;content:"";zoom:1;*display:inline;}
+.tabs:after,.pills:after{clear:both;}
+.tabs>li,.pills>li{float:left;}.tabs>li>a,.pills>li>a{display:block;}
+.tabs{float:left;width:100%;border-bottom:1px solid #ddd;}.tabs>li{position:relative;top:1px;}.tabs>li>a{padding:0 15px;margin-right:2px;line-height:36px;border:1px solid transparent;-webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;}.tabs>li>a:hover{text-decoration:none;background-color:#eee;border-color:#eee #eee #ddd;}
+.tabs>li.active>a{color:#808080;background-color:#ffffff;border:1px solid #ddd;border-bottom-color:transparent;}
+.tabs .menu-dropdown,.tabs .dropdown-menu{top:35px;border-width:1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.tabs a.menu:after,.tabs .dropdown-toggle:after{border-top-color:#999;margin-top:15px;margin-left:5px;}
+.tabs li.open.menu .menu,.tabs .open.dropdown .dropdown-toggle{border-color:#999;}
+.tabs li.open a.menu:after,.tabs .dropdown.open .dropdown-toggle:after{border-top-color:#555;}
+.tab-content{clear:both;}
+.pills a{margin:5px 3px 5px 0;padding:0 15px;text-shadow:0 1px 1px #ffffff;line-height:30px;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}.pills a:hover{background:#00438a;color:#ffffff;text-decoration:none;text-shadow:0 1px 1px rgba(0, 0, 0, 0.25);}
+.pills .active a{background:#0069d6;color:#ffffff;text-shadow:0 1px 1px rgba(0, 0, 0, 0.25);}
+.tab-content>*,.pill-content>*{display:none;}
+.tab-content>.active,.pill-content>.active{display:block;}
+.breadcrumb{margin:0 0 18px;padding:7px 14px;background-color:#f5f5f5;background-repeat:repeat-x;background-image:-khtml-gradient(linear, left top, left bottom, from(#ffffff), to(#f5f5f5));background-image:-moz-linear-gradient(top, #ffffff, #f5f5f5);background-image:-ms-linear-gradient(top, #ffffff, #f5f5f5);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f5f5f5));background-image:-webkit-linear-gradient(top, #ffffff, #f5f5f5);background-image:-o-linear-gradient(top, #ffffff, #f5f5f5);background-image:linear-gradient(top, #ffffff, #f5f5f5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);border:1px solid #ddd;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:inset 0 1px 0 #ffffff;-moz-box-shadow:inset 0 1px 0 #ffffff;box-shadow:inset 0 1px 0 #ffffff;}.breadcrumb li{display:inline;text-shadow:0 1px 0 #ffffff;}
+.breadcrumb .divider{padding:0 5px;color:#bfbfbf;}
+.breadcrumb .active a{color:#404040;}
+.hero-unit{background-color:#f5f5f5;margin-bottom:30px;padding:60px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}.hero-unit h1{margin-bottom:0;font-size:60px;line-height:1;letter-spacing:-1px;}
+.hero-unit p{font-size:18px;font-weight:200;line-height:27px;}
+footer{margin-top:17px;padding-top:17px;border-top:1px solid #eee;}
+.page-header{margin-bottom:17px;border-bottom:1px solid #ddd;-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);-moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);}.page-header h1{margin-bottom:8px;}
+.btn.danger,.alert-message.danger,.btn.danger:hover,.alert-message.danger:hover,.btn.error,.alert-message.error,.btn.error:hover,.alert-message.error:hover,.btn.success,.alert-message.success,.btn.success:hover,.alert-message.success:hover,.btn.info,.alert-message.info,.btn.info:hover,.alert-message.info:hover{color:#ffffff;}
+.btn.danger,.alert-message.danger,.btn.error,.alert-message.error{background-color:#c43c35;background-repeat:repeat-x;background-image:-khtml-gradient(linear, left top, left bottom, from(#ee5f5b), to(#c43c35));background-image:-moz-linear-gradient(top, #ee5f5b, #c43c35);background-image:-ms-linear-gradient(top, #ee5f5b, #c43c35);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #ee5f5b), color-stop(100%, #c43c35));background-image:-webkit-linear-gradient(top, #ee5f5b, #c43c35);background-image:-o-linear-gradient(top, #ee5f5b, #c43c35);background-image:linear-gradient(top, #ee5f5b, #c43c35);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee5f5b', endColorstr='#c43c35', GradientType=0);text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);border-color:#c43c35 #c43c35 #882a25;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);}
+.btn.success,.alert-message.success{background-color:#57a957;background-repeat:repeat-x;background-image:-khtml-gradient(linear, left top, left bottom, from(#62c462), to(#57a957));background-image:-moz-linear-gradient(top, #62c462, #57a957);background-image:-ms-linear-gradient(top, #62c462, #57a957);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #62c462), color-stop(100%, #57a957));background-image:-webkit-linear-gradient(top, #62c462, #57a957);background-image:-o-linear-gradient(top, #62c462, #57a957);background-image:linear-gradient(top, #62c462, #57a957);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#62c462', endColorstr='#57a957', GradientType=0);text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);border-color:#57a957 #57a957 #3d773d;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);}
+.btn.info,.alert-message.info{background-color:#339bb9;background-repeat:repeat-x;background-image:-khtml-gradient(linear, left top, left bottom, from(#5bc0de), to(#339bb9));background-image:-moz-linear-gradient(top, #5bc0de, #339bb9);background-image:-ms-linear-gradient(top, #5bc0de, #339bb9);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #5bc0de), color-stop(100%, #339bb9));background-image:-webkit-linear-gradient(top, #5bc0de, #339bb9);background-image:-o-linear-gradient(top, #5bc0de, #339bb9);background-image:linear-gradient(top, #5bc0de, #339bb9);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bc0de', endColorstr='#339bb9', GradientType=0);text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);border-color:#339bb9 #339bb9 #22697d;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);}
+.btn{cursor:pointer;display:inline-block;background-color:#e6e6e6;background-repeat:no-repeat;background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));background-image:-webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);background-image:-moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);background-image:-ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);background-image:-o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);background-image:linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);padding:5px 14px 6px;text-shadow:0 1px 1px rgba(255, 255, 255, 0.75);color:#333;font-size:13px;line-height:normal;border:1px solid #ccc;border-bottom-color:#bbb;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);-webkit-transition:0.1s linear all;-moz-transition:0.1s linear all;-ms-transition:0.1s linear all;-o-transition:0.1s linear all;transition:0.1s linear all;}.btn:hover{background-position:0 -15px;color:#333;text-decoration:none;}
+.btn:focus{outline:1px dotted #666;}
+.btn.primary{color:#ffffff;background-color:#0064cd;background-repeat:repeat-x;background-image:-khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd));background-image:-moz-linear-gradient(top, #049cdb, #0064cd);background-image:-ms-linear-gradient(top, #049cdb, #0064cd);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd));background-image:-webkit-linear-gradient(top, #049cdb, #0064cd);background-image:-o-linear-gradient(top, #049cdb, #0064cd);background-image:linear-gradient(top, #049cdb, #0064cd);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#049cdb', endColorstr='#0064cd', GradientType=0);text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);border-color:#0064cd #0064cd #003f81;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);}
+.btn:active{-webkit-box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:inset 0 2px 4px rgba(0, 0, 0, 0.25),0 1px 2px rgba(0, 0, 0, 0.05);}
+.btn.disabled{cursor:default;background-image:none;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);filter:alpha(opacity=65);-khtml-opacity:0.65;-moz-opacity:0.65;opacity:0.65;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+.btn[disabled]{cursor:default;background-image:none;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);filter:alpha(opacity=65);-khtml-opacity:0.65;-moz-opacity:0.65;opacity:0.65;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+.btn.large{font-size:15px;line-height:normal;padding:9px 14px 9px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}
+.btn.small{padding:7px 9px 7px;font-size:11px;}
+:root .alert-message,:root .btn{border-radius:0 \0;}
+button.btn::-moz-focus-inner,input[type=submit].btn::-moz-focus-inner{padding:0;border:0;}
+.close{float:right;color:#000000;font-size:20px;font-weight:bold;line-height:13.5px;text-shadow:0 1px 0 #ffffff;filter:alpha(opacity=20);-khtml-opacity:0.2;-moz-opacity:0.2;opacity:0.2;}.close:hover{color:#000000;text-decoration:none;filter:alpha(opacity=40);-khtml-opacity:0.4;-moz-opacity:0.4;opacity:0.4;}
+.alert-message{position:relative;padding:7px 15px;margin-bottom:18px;color:#404040;background-color:#eedc94;background-repeat:repeat-x;background-image:-khtml-gradient(linear, left top, left bottom, from(#fceec1), to(#eedc94));background-image:-moz-linear-gradient(top, #fceec1, #eedc94);background-image:-ms-linear-gradient(top, #fceec1, #eedc94);background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #fceec1), color-stop(100%, #eedc94));background-image:-webkit-linear-gradient(top, #fceec1, #eedc94);background-image:-o-linear-gradient(top, #fceec1, #eedc94);background-image:linear-gradient(top, #fceec1, #eedc94);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fceec1', endColorstr='#eedc94', GradientType=0);text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);border-color:#eedc94 #eedc94 #e4c652;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);border-width:1px;border-style:solid;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.25);-moz-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.25);box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.25);}.alert-message .close{*margin-top:3px;}
+.alert-message h5{line-height:18px;}
+.alert-message p{margin-bottom:0;}
+.alert-message div{margin-top:5px;margin-bottom:2px;line-height:28px;}
+.alert-message .btn{-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.25);-moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.25);box-shadow:0 1px 0 rgba(255, 255, 255, 0.25);}
+.alert-message.block-message{background-image:none;background-color:#fdf5d9;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);padding:14px;border-color:#fceec1;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}.alert-message.block-message ul,.alert-message.block-message p{margin-right:30px;}
+.alert-message.block-message ul{margin-bottom:0;}
+.alert-message.block-message li{color:#404040;}
+.alert-message.block-message .alert-actions{margin-top:5px;}
+.alert-message.block-message.error,.alert-message.block-message.success,.alert-message.block-message.info{color:#404040;text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);}
+.alert-message.block-message.error{background-color:#fddfde;border-color:#fbc7c6;}
+.alert-message.block-message.success{background-color:#d1eed1;border-color:#bfe7bf;}
+.alert-message.block-message.info{background-color:#ddf4fb;border-color:#c6edf9;}
+.pagination{height:36px;margin:18px 0;}.pagination ul{float:left;margin:0;border:1px solid #ddd;border:1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);}
+.pagination li{display:inline;}
+.pagination a{float:left;padding:0 14px;line-height:34px;border-right:1px solid;border-right-color:#ddd;border-right-color:rgba(0, 0, 0, 0.15);*border-right-color:#ddd;text-decoration:none;}
+.pagination a:hover,.pagination .active a{background-color:#c7eefe;}
+.pagination .disabled a,.pagination .disabled a:hover{background-color:transparent;color:#bfbfbf;}
+.pagination .next a{border:0;}
+.well{background-color:#f5f5f5;margin-bottom:20px;padding:19px;min-height:20px;border:1px solid #eee;border:1px solid rgba(0, 0, 0, 0.05);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);}.well blockquote{border-color:#ddd;border-color:rgba(0, 0, 0, 0.15);}
+.modal-backdrop{background-color:#000000;position:fixed;top:0;left:0;right:0;bottom:0;z-index:10000;}.modal-backdrop.fade{opacity:0;}
+.modal-backdrop,.modal-backdrop.fade.in{filter:alpha(opacity=80);-khtml-opacity:0.8;-moz-opacity:0.8;opacity:0.8;}
+.modal{position:fixed;top:50%;left:50%;z-index:11000;width:560px;margin:-250px 0 0 -250px;background-color:#ffffff;border:1px solid #999;border:1px solid rgba(0, 0, 0, 0.3);*border:1px solid #999;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;-webkit-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);-webkit-background-clip:padding-box;-moz-background-clip:padding-box;background-clip:padding-box;}.modal .close{margin-top:7px;}
+.modal.fade{-webkit-transition:opacity .3s linear, top .3s ease-out;-moz-transition:opacity .3s linear, top .3s ease-out;-ms-transition:opacity .3s linear, top .3s ease-out;-o-transition:opacity .3s linear, top .3s ease-out;transition:opacity .3s linear, top .3s ease-out;top:-25%;}
+.modal.fade.in{top:50%;}
+.modal-header{border-bottom:1px solid #eee;padding:5px 15px;}
+.modal-body{padding:15px;}
+.modal-footer{background-color:#f5f5f5;padding:14px 15px 15px;border-top:1px solid #ddd;-webkit-border-radius:0 0 6px 6px;-moz-border-radius:0 0 6px 6px;border-radius:0 0 6px 6px;-webkit-box-shadow:inset 0 1px 0 #ffffff;-moz-box-shadow:inset 0 1px 0 #ffffff;box-shadow:inset 0 1px 0 #ffffff;zoom:1;margin-bottom:0;}.modal-footer:before,.modal-footer:after{display:table;content:"";zoom:1;*display:inline;}
+.modal-footer:after{clear:both;}
+.modal-footer .btn{float:right;margin-left:5px;}
+.twipsy{display:block;position:absolute;visibility:visible;padding:5px;font-size:11px;z-index:1000;filter:alpha(opacity=80);-khtml-opacity:0.8;-moz-opacity:0.8;opacity:0.8;}.twipsy.fade.in{filter:alpha(opacity=80);-khtml-opacity:0.8;-moz-opacity:0.8;opacity:0.8;}
+.twipsy.above .twipsy-arrow{bottom:0;left:50%;margin-left:-5px;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #000000;}
+.twipsy.left .twipsy-arrow{top:50%;right:0;margin-top:-5px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:5px solid #000000;}
+.twipsy.below .twipsy-arrow{top:0;left:50%;margin-left:-5px;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid #000000;}
+.twipsy.right .twipsy-arrow{top:50%;left:0;margin-top:-5px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-right:5px solid #000000;}
+.twipsy-inner{padding:3px 8px;background-color:#000000;color:white;text-align:center;max-width:200px;text-decoration:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.twipsy-arrow{position:absolute;width:0;height:0;}
+.popover{position:absolute;top:0;left:0;z-index:1000;padding:5px;display:none;}.popover.above .arrow{bottom:0;left:50%;margin-left:-5px;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #000000;}
+.popover.right .arrow{top:50%;left:0;margin-top:-5px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-right:5px solid #000000;}
+.popover.below .arrow{top:0;left:50%;margin-left:-5px;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid #000000;}
+.popover.left .arrow{top:50%;right:0;margin-top:-5px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:5px solid #000000;}
+.popover .arrow{position:absolute;width:0;height:0;}
+.popover .inner{background-color:#000000;background-color:rgba(0, 0, 0, 0.8);padding:3px;overflow:hidden;width:280px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;-webkit-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);}
+.popover .title{background-color:#f5f5f5;padding:9px 15px;line-height:1;-webkit-border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;border-bottom:1px solid #eee;}
+.popover .content{background-color:#ffffff;padding:14px;-webkit-border-radius:0 0 3px 3px;-moz-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px;-webkit-background-clip:padding-box;-moz-background-clip:padding-box;background-clip:padding-box;}.popover .content p,.popover .content ul,.popover .content ol{margin-bottom:0;}
+.fade{-webkit-transition:opacity 0.15s linear;-moz-transition:opacity 0.15s linear;-ms-transition:opacity 0.15s linear;-o-transition:opacity 0.15s linear;transition:opacity 0.15s linear;opacity:0;}.fade.in{opacity:1;}
+.label{padding:1px 3px 2px;background-color:#bfbfbf;font-size:9.75px;font-weight:bold;color:#ffffff;text-transform:uppercase;white-space:nowrap;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}.label.important{background-color:#c43c35;}
+.label.warning{background-color:#f89406;}
+.label.success{background-color:#46a546;}
+.label.notice{background-color:#62cffc;}
+.media-grid{margin-left:-20px;margin-bottom:0;zoom:1;}.media-grid:before,.media-grid:after{display:table;content:"";zoom:1;*display:inline;}
+.media-grid:after{clear:both;}
+.media-grid li{display:inline;}
+.media-grid a{float:left;padding:4px;margin:0 0 20px 20px;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);}.media-grid a img{display:block;}
+.media-grid a:hover{border-color:#0069d6;-webkit-box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);-moz-box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);}
+$$$$$$ Response Body For Transaction With Id 16 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/computers
+Form: name= action=/computers
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 16 ****** (Location Flag : tFlagInsertEnd, Location ID : 16)
+	web_url("bootstrap.min.css",
+		"URL=http://computer-database.gatling.io/assets/stylesheets/bootstrap.min.css",
+		"Resource=1",
+		"RecContentType=text/css",
+		"Referer=http://computer-database.gatling.io/computers",
+		"Snapshot=t2.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 16 Ended $$$$$$
+
+****** Request Header For Transaction With Id 43 ******
+GET /assets/stylesheets/main.css HTTP/1.1
+Accept: text/css, */*
+Referer: http://computer-database.gatling.io/computers
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: computer-database.gatling.io
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 43 Ended $$$$$$
+
+****** Response Header For Transaction With Id 43 ******
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Wed, 05 Feb 2020 13:54:39 GMT
+Content-Type: text/css; charset=utf-8
+Content-Length: 824
+Connection: keep-alive
+Keep-Alive: timeout=5
+Last-Modified: Wed, 22 Jun 2016 09:08:51 GMT
+Etag: "fc2d7ddeb2f30f33286c1e790dfe67b8241745f9"
+Cache-Control: max-age=3600
+
+
+$$$$$$ Response Header For Transaction With Id 43 Ended $$$$$$
+
+****** Response Body For Transaction With Id 43 ******
+html {
+    background: #eee;
+}
+
+header h1 {
+    padding: 0.4em 1.1em;
+    color: white;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+section#main {
+    position: relative;
+    padding: 5em 2em;
+    border-bottom: 1px solid #ccc;
+    min-height: 600px;
+} 
+
+section#main .topRight {
+    position: absolute;
+    right: 20px;
+    top: 70px;
+}
+
+table.computers em {
+    color: #aaa;
+}
+
+table.computers .col3, table.computers .col4 {
+    width: 10%;
+    min-width: 100px;
+}
+
+table.computers .col5 {
+    width: 30%;
+    min-width: 300px;
+}
+
+table.computers .header a {
+}
+
+#actions {
+    position: relative;
+}
+
+#actions #add {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#pagination {
+    position: relative;
+}
+
+#pagination ul {
+    position: absolute;
+    right: 0;
+}
+
+#pagination ul .current a {
+    color: #666;
+}
+
+
+
+$$$$$$ Response Body For Transaction With Id 43 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/computers
+Form: name= action=/computers
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 1000010 ****** (Location Flag : tFlagInsertBefore, Location ID : 16)
+	web_concurrent_start(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 1000010 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertAfter, Location ID : 16)
+	web_concurrent_end(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 43 ****** (Location Flag : tFlagInsertAfter, Location ID : 16)
+	web_url("main.css",
+		"URL=http://computer-database.gatling.io/assets/stylesheets/main.css",
+		"Resource=1",
+		"RecContentType=text/css",
+		"Referer=http://computer-database.gatling.io/computers",
+		"Snapshot=t3.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 43 Ended $$$$$$
+
+****** Request Header For Transaction With Id 46 ******
+GET /favicon.ico HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: computer-database.gatling.io
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 46 Ended $$$$$$
+
+****** Response Header For Transaction With Id 46 ******
+HTTP/1.1 404 Not Found
+Server: nginx/1.14.2
+Date: Wed, 05 Feb 2020 13:54:39 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 1910
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+$$$$$$ Response Header For Transaction With Id 46 Ended $$$$$$
+
+****** Response Body For Transaction With Id 46 ******
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Action not found</title>
+		<link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC">
+	    <style>
+		    html, body, pre {
+		        margin: 0;
+		        padding: 0;
+		        font-family: Monaco, 'Lucida Console', monospace;
+		        background: #ECECEC;
+		    }
+		    h1 {
+		        margin: 0;
+		        background: #AD632A;
+		        padding: 20px 45px;
+		        color: #fff;
+		        text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+		        border-bottom: 1px solid #9F5805;
+		        font-size: 28px;
+		    }
+		    p#detail {
+		        margin: 0;
+		        padding: 15px 45px;
+		        background: #F6A960;
+		        border-top: 4px solid #D29052;
+		        color: #733512;
+		        text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+		        font-size: 14px;
+		        border-bottom: 1px solid #BA7F5B;
+		    }
+		</style>
+	</head>
+	<body>
+		<h1>Action not found</h1>
+
+		<p id="detail">
+			For request 'GET /favicon.ico'
+		</p>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+$$$$$$ Response Body For Transaction With Id 46 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/computers
+Form: name= action=/computers
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 69 ******
+GET /computers/new HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://computer-database.gatling.io/computers
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: computer-database.gatling.io
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 69 Ended $$$$$$
+
+****** Response Header For Transaction With Id 69 ******
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Wed, 05 Feb 2020 13:55:16 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 5277
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+$$$$$$ Response Header For Transaction With Id 69 Ended $$$$$$
+
+****** Response Body For Transaction With Id 69 ******
+
+
+
+ 
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    </head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>Add a computer</h1>
+    
+     
+
+<form action="/computers" method="POST" >
+    
+        
+        <fieldset>
+        
+            
+
+
+
+
+
+
+
+
+
+
+<div class="clearfix ">
+    <label for="name">Computer name</label>
+    <div class="input">
+        
+    <input type="text" id="name" name="name" value="" >
+
+        <span class="help-inline">Required</span> 
+    </div>
+</div>
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+<div class="clearfix ">
+    <label for="introduced">Introduced date</label>
+    <div class="input">
+        
+    <input type="text" id="introduced" name="introduced" value="" >
+
+        <span class="help-inline">Date (&#x27;yyyy-MM-dd&#x27;)</span> 
+    </div>
+</div>
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+<div class="clearfix ">
+    <label for="discontinued">Discontinued date</label>
+    <div class="input">
+        
+    <input type="text" id="discontinued" name="discontinued" value="" >
+
+        <span class="help-inline">Date (&#x27;yyyy-MM-dd&#x27;)</span> 
+    </div>
+</div>
+
+
+
+
+            
+
+
+
+
+
+
+
+
+<div class="clearfix ">
+    <label for="company">Company</label>
+    <div class="input">
+        
+    
+    
+        <select id="company" name="company" >
+            
+                <option class="blank" value="">-- Choose a company --</option>
+            
+            
+                <option value="1" >Apple Inc.</option>
+            
+                <option value="2" >Thinking Machines</option>
+            
+                <option value="3" >RCA</option>
+            
+                <option value="4" >Netronics</option>
+            
+                <option value="5" >Tandy Corporation</option>
+            
+                <option value="6" >Commodore International</option>
+            
+                <option value="7" >MOS Technology</option>
+            
+                <option value="8" >Micro Instrumentation and Telemetry Systems</option>
+            
+                <option value="9" >IMS Associates, Inc.</option>
+            
+                <option value="10" >Digital Equipment Corporation</option>
+            
+                <option value="11" >Lincoln Laboratory</option>
+            
+                <option value="12" >Moore School of Electrical Engineering</option>
+            
+                <option value="13" >IBM</option>
+            
+                <option value="14" >Amiga Corporation</option>
+            
+                <option value="15" >Canon</option>
+            
+                <option value="16" >Nokia</option>
+            
+                <option value="17" >Sony</option>
+            
+                <option value="18" >OQO</option>
+            
+                <option value="19" >NeXT</option>
+            
+                <option value="20" >Atari</option>
+            
+                <option value="22" >Acorn computer</option>
+            
+                <option value="23" >Timex Sinclair</option>
+            
+                <option value="24" >Nintendo</option>
+            
+                <option value="25" >Sinclair Research Ltd</option>
+            
+                <option value="26" >Xerox</option>
+            
+                <option value="27" >Hewlett-Packard</option>
+            
+                <option value="28" >Zemmix</option>
+            
+                <option value="29" >ACVS</option>
+            
+                <option value="30" >Sanyo</option>
+            
+                <option value="31" >Cray</option>
+            
+                <option value="32" >Evans &amp; Sutherland</option>
+            
+                <option value="33" >E.S.R. Inc.</option>
+            
+                <option value="34" >OMRON</option>
+            
+                <option value="35" >BBN Technologies</option>
+            
+                <option value="36" >Lenovo Group</option>
+            
+                <option value="37" >ASUS</option>
+            
+                <option value="38" >Amstrad</option>
+            
+                <option value="39" >Sun Microsystems</option>
+            
+                <option value="40" >Texas Instruments</option>
+            
+                <option value="41" >HTC Corporation</option>
+            
+                <option value="42" >Research In Motion</option>
+            
+                <option value="43" >Samsung Electronics</option>
+            
+        </select>
+    
+
+        <span class="help-inline"></span> 
+    </div>
+</div>
+
+
+
+            
+
+        </fieldset>
+        
+        <div class="actions">
+            <input type="submit" value="Create this computer" class="btn primary"> or 
+            <a href="/computers" class="btn">Cancel</a> 
+        </div>
+        
+    
+</form>
+
+    
+
+        </section>
+        
+    </body>
+</html>
+
+
+$$$$$$ Response Body For Transaction With Id 69 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/computers
+Form: name= action=/computers
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 69 ****** (Location Flag : tFlagInsertEnd, Location ID : 69)
+	web_url("Add a new computer",
+		"URL=http://computer-database.gatling.io/computers/new",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://computer-database.gatling.io/computers",
+		"Snapshot=t4.inf",
+		"Mode=HTTP",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 69 Ended $$$$$$
+
+****** Request Header For Transaction With Id 77 ******
+GET /favicon.ico HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: computer-database.gatling.io
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 77 Ended $$$$$$
+
+****** Response Header For Transaction With Id 77 ******
+HTTP/1.1 404 Not Found
+Server: nginx/1.14.2
+Date: Wed, 05 Feb 2020 13:55:17 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 1910
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+$$$$$$ Response Header For Transaction With Id 77 Ended $$$$$$
+
+****** Response Body For Transaction With Id 77 ******
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Action not found</title>
+		<link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC">
+	    <style>
+		    html, body, pre {
+		        margin: 0;
+		        padding: 0;
+		        font-family: Monaco, 'Lucida Console', monospace;
+		        background: #ECECEC;
+		    }
+		    h1 {
+		        margin: 0;
+		        background: #AD632A;
+		        padding: 20px 45px;
+		        color: #fff;
+		        text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+		        border-bottom: 1px solid #9F5805;
+		        font-size: 28px;
+		    }
+		    p#detail {
+		        margin: 0;
+		        padding: 15px 45px;
+		        background: #F6A960;
+		        border-top: 4px solid #D29052;
+		        color: #733512;
+		        text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+		        font-size: 14px;
+		        border-bottom: 1px solid #BA7F5B;
+		    }
+		</style>
+	</head>
+	<body>
+		<h1>Action not found</h1>
+
+		<p id="detail">
+			For request 'GET /favicon.ico'
+		</p>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+$$$$$$ Response Body For Transaction With Id 77 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/computers/new
+Form: name= action=/computers
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 423 ******
+POST /computers HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://computer-database.gatling.io/computers/new
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: computer-database.gatling.io
+Content-Length: 65
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 423 Ended $$$$$$
+
+****** Request Body For Transaction With Id 423 ******
+name=Ipad&introduced=2020-02-05&discontinued=2020-02-06&company=1
+$$$$$$ Request Body For Transaction With Id 423 Ended $$$$$$
+
+****** Response Header For Transaction With Id 423 ******
+HTTP/1.1 303 See Other
+Server: nginx/1.14.2
+Date: Wed, 05 Feb 2020 13:55:46 GMT
+Content-Length: 0
+Connection: keep-alive
+Keep-Alive: timeout=5
+Location: /computers
+Set-Cookie: PLAY_FLASH="success=Computer+Ipad+has+been+created"; Path=/; HTTPOnly
+
+
+$$$$$$ Response Header For Transaction With Id 423 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/computers/new
+Form: name= action=/computers
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 425 ******
+GET /computers HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://computer-database.gatling.io/computers/new
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: computer-database.gatling.io
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: PLAY_FLASH="success=Computer+Ipad+has+been+created"
+
+
+$$$$$$ Request Header For Transaction With Id 425 Ended $$$$$$
+
+****** Response Header For Transaction With Id 425 ******
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Wed, 05 Feb 2020 13:55:46 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 7382
+Connection: keep-alive
+Keep-Alive: timeout=5
+Set-Cookie: PLAY_FLASH=; Expires=Tue, 04 Feb 2020 13:55:47 GMT; Path=/; HTTPOnly
+
+
+$$$$$$ Response Header For Transaction With Id 425 Ended $$$$$$
+
+****** Response Body For Transaction With Id 425 ******
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    </head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>850 computers found</h1>
+
+    
+        <div class="alert-message warning">
+            <strong>Done!</strong> Computer Ipad has been created
+        </div>
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/381">ACE</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/501">AN/FSQ-32</a></td>
+                            <td>
+                                01 Jan 1960
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/500">AN/FSQ-7</a></td>
+                            <td>
+                                01 Jan 1958
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/388">APEXC</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/355">ARRA</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/385">ASCI Blue Mountain</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/313">ASCI Blue Pacific</a></td>
+                            <td>
+                                01 Jan 1998
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/384">ASCI Purple</a></td>
+                            <td>
+                                01 Jan 2005
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/382">ASCI Red</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/383">ASCI Thors Hammer</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev disabled">
+                        <a>&larr; Previous</a>
+                    </li>
+                
+                <li class="current">
+                    <a>Displaying 1 to 10 of 850</a>
+                </li>
+                
+                    <li class="next">
+                        <a href="/computers?p=1">Next &rarr;</a>
+                    </li> 
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            
+$$$$$$ Response Body For Transaction With Id 425 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/computers
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 425 ****** (Location Flag : tFlagInsertEnd, Location ID : 425)
+	web_submit_data("computers_2",
+		"Action=http://computer-database.gatling.io/computers",
+		"Method=POST",
+		"RecContentType=text/html",
+		"Referer=http://computer-database.gatling.io/computers/new",
+		"Snapshot=t5.inf",
+		"Mode=HTTP",
+		ITEMDATA,
+		"Name=name", "Value=Ipad", ENDITEM,
+		"Name=introduced", "Value=2020-02-05", ENDITEM,
+		"Name=discontinued", "Value=2020-02-06", ENDITEM,
+		"Name=company", "Value=1", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 425 Ended $$$$$$
+
+****** Request Header For Transaction With Id 437 ******
+GET /iedomainsuggestions/ie11/suggestions.ru-RU HTTP/1.1
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: ieonline.microsoft.com
+Connection: Keep-Alive
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 437 Ended $$$$$$
+
+****** Response Header For Transaction With Id 437 ******
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=3600
+Content-Length: 16808
+Content-Type: application/octet-stream
+ETag: XwwzJtZj0Kv2uZZFDICZuEmVG4A=
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: SRCHD=AF=NOFORM; domain=.microsoft.com; expires=Sat, 05-Feb-2022 13:58:40 GMT; path=/
+Set-Cookie: SRCHUID=V=2&GUID=423CC2F10F7D4DEAB994C258B57BA93E&dmnchg=1; domain=.microsoft.com; expires=Sat, 05-Feb-2022 13:58:40 GMT; path=/
+Set-Cookie: SRCHUSR=DOB=20200205; domain=.microsoft.com; expires=Sat, 05-Feb-2022 13:58:40 GMT; path=/
+Set-Cookie: _SS=SID=34EEBC1EAC3365600DB2B279AD1B64B4; domain=.microsoft.com; path=/
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-MSEdge-Ref: Ref A: A864021D33454DD0B1EB033D7E3ADC24 Ref B: STOEDGE1017 Ref C: 2020-02-05T13:58:40Z
+Date: Wed, 05 Feb 2020 13:58:39 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 437 Ended $$$$$$
+
+****** Response Body For Transaction With Id 437 ******
+8\x00\xB6\xFF\xF41\x00\x00\x00\x00\x00\x00\x8B\xB5\x08\x00\x00\x00\x00\x00TRIE64\x00\x00\x00\x00\x80?\x00\x00\x00\x00\xA8\x18\x00\x00\x00\x00\x00\x00\xC03\x80.\x80r\xC0u\xC0$\x80h\xC0t\xC0t\xC0p\xC0:\x80/\x80/\x80w\xC0w\xC0w\xC0.\x80\x00\xC0u\xC0r\xC1u\xEE\xFFAg\xFC\xFF\xC0t\x80u\xC1r\xE8\xFFA1\xFA\xFF\xC0d\xC0o\xC0r\xC0o\xC0g\xC0.\x80r\xC0u\xC0$\x80h\xC0t\xC0t\xC0p\xC0:\x80/\xC1/\xE4\xFFA0\xED\xFF\xC11\xF2\xFF\xC0o\xC0v\xC0i\xC1e\xED\xFFA0\xF7\xFFAm\xF9\xFF\xC0t\xC1v\xC5\xFF\xC00\x806\x80-\x802\x800\x800\x809\x80.\x80l\xC0i\xC0t\xC0t\xC0l\xC0e\xC0o\xC1n\xE8\xFF\xC0u\xC0t\xC1o\xB0\xFF\xC0p\xC0e\xC1n\xAC\xFFAa\xF8\xFFAo\xFA\xFF\xC0v\x80i\xC0d\xC0e\xC0o\xC0.\x80n\xC0e\xC1t\xA1\xFF\xC0r\xC0o\xC0k\xC0o\xC0p\xC0i\xC0e\xC0v\xC0s\xC1k\xB4\xFF\xC0i\xC0s\xC0.Ap\xF2\xFF\xC1r\x8E\xFFA0\xC7\xFFA4\xDE\xFFAg\xF5\xFF\xC0k\x80r\xC0o\xC0t\xC1a\xA1\xFF\xC0d\xC0n\xC0e\xC0w\xC1sz\xFF\xC1d\xF8\xFFAp\xFE\xFF\xC0s\xC0t\xC0u\xC0p\xC0e\xC0n\xC0i\xC0.\x80r\xC0u\xC0$\x80h\xC0t\xC0t\xC0p\xC0:\x80/\x80/\x00\x00\xC1wm\xFF\xC0b\xC0a\xC0l\xC0l\xC0o\xC0v\xC0.\x80q\xC0i\xC1pw\xFF\xC16T\xFF\xC0z\xC0i\xC0p\xC0.\x80o\xC0r\xC1gp\xFF\xC07\x80s\xC0l\xC0o\xC0t\xC0.\x80a\xC0t\xC0.\x80u\xC1ad\xFFA-\xEC\xFFA2]\xFFA4[\xFFA7\xEE\xFF\xC0y\xC1a5\xFF\xC00\x80i\xC0g\xC0r\xC0.\x80n\xC0e\xC1tP\xFFA0\xF7\xFF\xC01\xC01\xC11&\xFF\xC0p\xC0e\xC0o\xC0p\xC0l\xC0e\xC0.\x80c\xC0o\xC1m\x1E\xFF\xC0cA-\xF4\xFF\xC0f\x80o\xC0r\xC0m\xC0a\xC1t2\xFF\xC0a\xC0r\xC1s.\xFF\xC1b\xEC\xFFAo\xFE\xFF\xC0u\x80l\xC0t\xC0m\xC0u\xC1l\xF1\xFF\xC0r\xC0o\xC0f\xC0l\xC0o\xC1t\xFB\xFE\xC0a\xC0i\xC1l\x18\xFF\xC0i\xC0s\xC0h\xC0a\xC0.Am\xF7\xFF\xC1r\xF0\xFE\xC0e\xC0n\xC0t\xC0.\xC1m\xEF\xFF\xC1f\xE6\xFEAaQ\xFF\xC0v\xC0i\xC0l\xC0o\xC0n\xC0c\xC0e\xC0n\xC0t\xC0e\xC1r\xF9\xFE\xC0a\xC0b\xC0a\xC1n@\xFF\xC0b\xC0a\xC0b\xC1a\xB0\xFF\xC0o\xC0r\xC0c\xC0h\xC0i\xC0l\xC0d\xC0r\xC0e\xC1n\xE4\xFE\xC0n\xC0f\xC0o\xC0r\xC1m\xBD\xFEAf\xE5\xFFAi\xE8\xFF\xC0lAf\xEA\xFFAi\xF3\xFF\xC0n\x80o\xC0k\xC1i/\xFF\xC0l\xC0g\xC0a\xC0m\xC0a\xC0-\x80l\xC0a\xC1b\x87\xFFAa\xF6\xFF\xC0t\x80.\x80a\xC0l\xC0l\xC0e\xC0r\xC0g\xC0i\xC1s\x87\xFF\xC0l\xC0i\xC0z\xC0f\xC0a\xC0m\xC0i\xC0l\xC0i\xC1i\x8D\xFE\xC0k\xC1d\x8E\xFF\xC0m\xC0e\xC0s\xC0p\xC0i\xC0r\xC1i\x87\xFFAa\xEA\xFFAe\xF3\xFFAi\xF4\xFF\xC0s\xC0w\xC0e\xC0r\xC0s\xC0.\x80m\xC0i\xC0c\xC0r\xC0o\xC0s\xC0o\xC0f\xC0t\xC0.\x80c\xC0o\xC1m\x8C\xFEApF\xFF\xC0t\xC0e\xC0k\xC0a\xC0-\x80i\xC0f\xC1k]\xFE\xC0b\xC1i\xAA\xFEAa\xFD\xFF\xC0b\x80i\xC1t|\xFF\xC0e\xC0r\xC0i\xC0d\xC0i\xC1a\xA1\xFE\xC0t\xC0r\xC0oAm\xF6\xFF\xC0s\xC0c\xC0o\xC1pw\xFE\xC0o\xC0m\xC0.\x80u\xC1a@\xFE\xC0i\xC0.Ac\xF8\xFF\xC1sZ\xFE\xC0i\xC0o\xC0p\xC0o\xC0i\xC0s\xC1k\x11\xFF\xC0r\xC0o\xC1mL\xFE\xC0r\xC0o\xC0n\xC0h\xC0o\xC0r\xC1sW\xFE\xC1a\xDF\xFEAd\xF2\xFFAi\xF4\xFFAm"\xFF\xC0rAi\xF7\xFF\xC0uA$:\xFE\xC0.\x80m\xC0s\xC1n\xA5\xFFAd\xD9\xFF\xC0t\x80oA.\xEB\xFF\xC0n\x80a\xC0v\xC0i\xC0g\xC0a\xC0t\xC1o\x19\xFE\xC0s\xC1t\xE0\xFE\xC0g\xC1e\xFB\xFD\xC0a\xC0l\xC1e}\xFEAs\xFC\xFF\xC0v\x80i\xC1p\x86\xFFAa\xFA\xFF\xC0t\x80o\xC0.Ao\x9D\xFE\xC1r\xEA\xFD\xC0r\xC0u\xC0s\xC0s\xC0i\xC1at\xFE\xC0a\xC0z\xC0a\xC1r\x9A\xFE\xC0i\xC0s\xC0p\xC0e\xC0t\xC0c\xC0h\xC1e\xEB\xFDAa\xD2\xFFAe\xD3\xFFAi\xDE\xFFAo\x1F\xFE\xC0t\xC0oA-\xE1\xFFA.\xC6\xFDAb\xE4\xFFAd\xE7\xFF\xC0v\x80o\xC0k\xC0z\xC0a\xC0l\xC1y\xB9\xFDAd\x82\xFE\xC0z\x80d\xC0o\xC0r\xC1o\xEC\xFDAb\x96\xFEAc\x9E\xFEAd\xA2\xFEAe\xA9\xFEAf\xB2\xFEAg\xB9\xFEAi\xBD\xFEAk\xBD\xFEAl\xE4\xFEAm\xFA\xFEAn\x1B\xFFAp3\xFFAr?\xFFAsJ\xFFAtX\xFFAu\x83\xFFAv\xBE\xFFAy\xD6\xFF\xC0z\xC1u\xB2\xFE\xC0l\xC0o\xC1g\x86\xFD\xC0yA.\x84\xFDAb\xF9\xFF\xC0p\xC1l1\xFF\xC0t\xC0b\xC1ei\xFE\xC14x\xFDA.w\xFD\xC1r\x95\xFD\xC0kA2\xF9\xFFAi\xF9\xFF\xC0r\xC0e\xC0c\xC0e\xC0p\xC1t\xB7\xFF\xC0i\xC0e\xC0l\xC0a\xC0n\xC1d\x82\xFDAb\xF9\xFF\xC0t\x80z\xC0m\xC0o\xC0v\xC0i\xC1e\xEC\xFE\xC0o\xC0n\xC0s\xC0u\xC0l\xC0t\xC0a\xC1n=\xFEAb\xC8\xFFAl\xCE\xFFAn\xD6\xFFAr\xE7\xFF\xC0s\x80e\xC0.Ac\xEC\xFF\xC0g\x80a\xC1r\xEE\xFF\xC0c\xC0.\x80c\xC0o\xC0.\x80u\xC1k8\xFD\xC0u\xC0t\xC0y\xC0n\xC1e4\xFE\xC0e\xC1x,\xFD\xC0l\xC0i\xC1n-\xFF\xC0o\xC1wF\xFD\xC0l\xC0a\xC0t\xC0n\xC0y\xC0e\xC0p\xC0r\xC0o\xC0g\xC0r\xC0a\xC0m\xC1m]\xFF\xC135\xFD\xC0mAp\xFD\xFF\xC0u\x80z\xC1oJ\xFE\xC0a\xC1m1\xFEAh\xE2\xFFAp\xE3\xFF\xC0tA-\xF1\xFFAg\xF6\xFF\xC0o\x80f\xC0y\xC0o\xC0u\xC0t\xC0u\xC1b,\xFDAa\xC3\xFFAb\xC7\xFFAe\xC8\xFFAo-\xFEAs\xE6\xFF\xC0t\xC0c\xC0i\xC0t\xC0y\xC0r\xC1u{\xFE\xC1k\xAF\xFD\xC0o\xC0t\xC0e\xC0k\xC1a\x06\xFEAi\xF8\xFF\xC0lAi\xF7\xFF\xC0p\x80r\xC0o\xC0g\xC0.\x80o\xC0r\xC1g\x8E\xFD\xC0m\xC0o\xC0v\xC1i\xD0\xFEA-\xFB\xFF\xC0l\xC0i\xC1o\x19\xFD\xC0l\xC0b\xC0o\xC0a\xC0r\xC0d\xC0.\x80r\xC0u\xC1.\xA8\xFEAg\xB8\xFC\xC0s\xC0o\xC0f\xC0t\xC0.\x80h\xC0u\xC0t\xC12\xCF\xFC\xC0o\xC0u\xC0n\xC1d\x8B\xFDAb\xCB\xFFAg\xDC\xFFAl\xE0\xFFAn\xE9\xFFAs\xF3\xFF\xC0z\xC0i\xC0n\xC0f\xC0o\xC0r\xC0m\xC0a\xC0t\xC0s\xC0i\xC1y\x12\xFD\xC0k\xC0p\xC0a\xC0n\xC0t\xC0e\xC1rU\xFDAc\xF8\xFF\xC0n\xC1k\xAC\xFD\xC1k-\xFDAa\xF9\xFF\xC0o\x80gA.\xFA\xFF\xC1s\x92\xFD\xC0l\xC0i\xC1f\xAB\xFC\xC0o\xC1r\xEE\xFE\xC0nA.\xFC\xFF\xC1gQ\xFDAb\xF4\xFF\xC0o\x80kAi\xF7\xFF\xC1z\x88\xFC\xC0o\xC0w\xC0s\xC0e\xC0r\xC0-\x80o\xC1p\xD3\xFF\xC0a\xC1g&\xFDA.Z\xFC\xC0s\x80o\xC1fZ\xFDAg\xF7\xFFAh\xF8\xFF\xC0s\xC0i\xC0n\xC0e\xC0s\xC0s\xC0p\xC0r\xC0a\xC1v\x96\xFCAa\xF8\xFEAb\x07\xFFAeJ\xFFAi\x97\xFFAl\xBB\xFFAo\xCD\xFFAr\xD3\xFFAu\xE3\xFF\xC0v\xC1fT\xFC\xC0e\xC0n\xC1d/\xFC\xC0e\xC0l\xC0e\xC1oK\xFC\xC0e\xC0r\xC1j\xF7\xFE\xC1t\xFA\xFF\xC0aAu\xFD\xFF\xC1v\xFB\xFFAe\xF5\xFF\xC0sA.\xF8\xFF\xC0g\xC0u\xC0r\xC1u\xE6\xFCAl\xE2\xFFAm\xE4\xFFAr\xF2\xFF\xC0t\xC0a\xC0l\xC0o\xC1xP\xFE\xC0p\xC0i\xC0o\xC0n\xC0a\xC0t\xC0.Ac\xE4\xFC\xC1r\x00\xFCAm\xF5\xFF\xC0t\x80r\xC0o\xC0u\xC0l\xC0e\xC0t\xC1t\x9C\xFE\xC0d\xC0r\xC0e\xC0n\xC0.\x80k\xC0u\xC0l\xC0i\xC0c\xC0h\xC0k\xC1i\xB6\xFCAl\xF2\xFF\xC1t\xAC\xFC\xC0o\xC0m\xC0e\xC0.\x80y\xC0a\xC0n\xC0d\xC0e\xC1x\xF7\xFBAa\xD8\xFFAi\xEF\xFFAr\xF1\xFF\xC0u\xC0d\xC0o\xC0p\xC0r\xC0e\xC0d\xC1k:\xFDAa\x19\xFC\xC0t\x80i\xC0l\xC0i\xC1nb\xFD\xC0s\xC1s\xC5\xFD\xC0k\xC0.\x80a\xC0l\xC0f\xC0a\xC0b\xC0a\xC0n\xC0k\xC0.\x80r\xC0u\xC0$\x80h\xC0t\xC0t\xC0p\xC1s\xD1\xFBAc\xEC\xFF\xC0p\x80a\xC1f\xDD\xFE\xC0p\xC0a\xC0s\xC0s\xC1i\x8F\xFEAa\xDD\xFFAi\xF2\xFF\xC0u\x80bA.\xF4\xFF\xC0s\xC1.\xFF\xFE\xC0h\xC0t\xC0t\xC0p\xC0:\x80/\x80/\x80w\xC0w\xC0w\xC1.\x90\xFB\xC0n\xC1y\xA6\xFF\xC0e\xC0x\xC0d\xC0o\xC1c|\xFBAa\xF7\xFFAl\xF8\xFF\xC0r\x80o\xC0m\xC1ax\xFCA$\xE2\xFFAp\xF5\xFF\xC0sAsl\xFB\xC1tX\xFC\xC1e9\xFF\xC0sAm\xFD\xFF\xC0u\x80l\xC0t\xC0a\xC1nd\xFC\xC0k\xC0i\xC0n\xC0g\xC0.\x80w\xC0i\xC0l\xC0d\xC0-\x80m\xC0i\xC0s\xC0t\xC0r\xC0e\xC1s@\xFC\xC0y\xC0p\xC1a\xB1\xFCAm\xD6\xFFAn\xDF\xFFAo\xE6\xFFAp\xF6\xFF\xC0r\x80a\xC1l=\xFB\xC1c\\\xFBAa&\xFFAbO\xFBAha\xFFAin\xFFAl\x97\xFFAo\xE8\xFFAt\xF2\xFF\xC0y\xC0b\xC0e\xC0r\xC0f\xC0o\xC0r\xC1ug\xFC\xC0o\xC0s\xC0t\xC1u\xC9\xFBAd\xFB\xFF\xC0l\x80y\xC0m\xC0o\xC0t\xC0i\xC0o\xC1n\xF6\xFB\xC0i\xC1n1\xFBAi\xF2\xFFAt\xFB\xFF\xC0y\x80s\xC0.\x80p\xC0r\xC0a\xC0v\xC0o\xC0s\xC0l\xC1a3\xFB\xC0r\xC0i\xC1v$\xFC\xC0m\xC0o\xC0n\xC0d\xC0-\x80w\xC0a\xC0r\xC0e\xC1zQ\xFB\xC0.\x80a\xC0c\xC0a\xC0d\xC0e\xC0m\xC1i\xAE\xFF\xC0r\xC1u\xD9\xFB\xC1e+\xFDAn\xFE\xFF\xC0s\xC0e\xC0r\xC0c\xC1a\xDE\xFCAa\xDF\xFFAc\xE8\xFFAg\xEF\xFFAs\xF2\xFF\xC1y\xD2\xFA\xC0n\xC0s\xC0o\xC1f\xBC\xFBAo\xFB\xFF\xC0v\x80u\xC0-\x80r\xC0e\xC0a\xC0d\xC0e\xC0rA.\xE2\xFA\xC1s\xDF\xFA\xC1i\xE4\xFB\xC0v\xC0n\xC1i%\xFBAe\xFC\xFF\xC1i\xB4\xFA\xC0l\xC0o\xC1a\x81\xFE\xC0o\xC0r\xC0e\xC0v\xC0e\xC1r>\xFC\xC0a\xC1d\xF4\xFC\xC0o\xC1v\xC4\xFAA2\xC2\xFAAf\xF1\xFFAk\xF6\xFF\xC0sAn\xF6\xFF\xC0o\xC0v\xC0e\xC0t\xC1o\xAE\xFB\xC0n\xC1gB\xFB\xC0v\xC0o\xC0z\xC0r\xC0a\xC1s\x8F\xFBAe\xF6\xFFAh\xF7\xFF\xC0t\x80u\xC0p\xC1e\xF7\xFFAc\xCD\xFFAm\xDC\xFFAs\xF3\xFF\xC0w\xC0n\xC0l\xC0o\xC0a\xC0d\xC0c\xC0h\xC0r\xC0o\xC1mt\xFC\xC0s\xC0s\xC0u\xC0p\xC0m\xC1i<\xFDAaW\xFFAde\xFFAi\x88\xFFAj\x95\xFFAm\xA2\xFFAn\xA6\xFFAo\xDB\xFFApX\xFA\xC0rAe\xE8\xFFAiV\xFF\xC1o\x94\xFB\xC0k\xC0u\xC0z\xC0b\xC0a\xC1s\xD0\xFA\xC0a\xC1y)\xFB\xC0h\xC0o\xC0.\xC1m\xAE\xFA\xC0u\xC0.Ar@\xFA\xC0t\xC0a\xC1t\\\xFD\xC0o\xC1w\x19\xFB\xC0-\x80m\xC0a\xC1m\xFD\xFAAa\xFB\xFF\xC0b\x80.\x80p\xC0u\xC0l\xC0s\xC1cd\xFB\xC0d\xC0o\xC0r\xC0a\xC1dr\xFA\xC0w\xC0i\xC0k\xC0i\xC0p\xC0e\xC0d\xC0i\xC1a\xC9\xFAA.\xF6\xFF\xC0t\xC0e\xC0r\xC0t\xC0a\xC0i\xC0n\xC0m\xC0e\xC0n\xC1tM\xFD\xC0u\xC0d\xC0i\xC1t?\xFD\xC0t\xC0n\xC0o\xC0d\xC03\xC12\xFE\xF9\xC0.\x80s\xC0b\xC0r\xC1fH\xFEAe\xF3\xFFAk\xF8\xFF\xC0o\xC0s\xC0e\xC1db\xFBAi\x0E\xFA\xC0v\x80n\xC1e}\xFB\xC0f\xC0o\xC0o\xC0t\xC0b\xC0a\xC1l\xA4\xFE\xC0a\xC1b\x9F\xFB\xC0a\xC0p\xC0l\xC1u_\xFA\xC0r\xC0oA-\xEE\xFFAl\xF4\xFFAp\xF5\xFF\xC0sAe\xBD\xFA\xC0p\x80o\xC1r\xCF\xFA\xC0g\xC1k\\\xFBA-v\xFFA1\xC3\xF9Aby\xFFAcz\xFFAd}\xFFAg\xBB\xF9Ah\x81\xFFAk\x87\xFFAl\x8F\xFFAn\x9D\xFFAr\xA9\xFFAs\xB9\xFFAt\xC0\xFFAu\xD4\xFFAv)\xFAAw\xDF\xFF\xC0xA.f\xFB\xC1i\x18\xFF\xC0g\xC0a\xC1m\xA7\xFB\xC1cm\xFD\xC0e\xC0b\xC0o\xC1oh\xFB\xC1mj\xFD\xC0p\xC0a\xC0r\xC0t\xC1y\xB0\xF9\xC0p\xC1o\x02\xFF\xC1i\x1B\xFF\xC0i\xC0o\xC0nAt\xFB\xFF\xC1y\xA4\xF9Ac\xE7\xFFAm\xEA\xFFAn\xEA\xFFAr\xEE\xFF\xC0sAh\xF0\xFF\xC0t\x80-\x80t\xC0o\xC0r\xC0r\xC1e\x11\xFE\xC0-\x80z\xC0e\xC0n\xC1iY\xFA\xC0o\xC0m\xC0e\xC0n\xC1a\xF9\xFAAl\xFA\xFF\xC0s\xC0t\xC0i\xC0v\xC0a\xC0l\xC0.\x801\x80s\xC0e\xC0p\xC0t\xC0e\xC0m\xC1by\xFA\xC0e\xC0x\xC0t\xC0e\xC0n\xC0s\xC0i\xC0o\xC0nA.*\xFA\xC0s\x80.\x80o\xC0r\xC1gD\xF9\xC0x\xC0t\xC0e\xC0n\xC0s\xC0i\xC0o\xC0n\xC0d\xC0j\xC1vO\xFCA-\xE3\xFFAe\xF2\xFFAp\xF4\xFD\xC1x\xC1\xFA\xC0o\xC0n\xC0l\xC0i\xC0n\xC0.\x80i\xC0n\xC0f\xC1oF\xF9\xC1x\xF1\xF9Ae\xEB\xFF\xC0mA-\xF0\xFFA.\x1A\xF9Ai\xF7\xFF\xC1z\x15\xF9Am\x13\xF9\xC0n\xC0c\xC0i\xC0a\xC0l\xC0-\x80l\xC0a\xC0w\xC1y5\xFBAa\xF3\xFF\xC0d\xC0t\xC1o\x19\xF9Al\xE2\xFFAn\xF8\xFF\xC1s\x15\xFD\xC0o\xC0z\xC1o \xFA\xC0s\xC0hAd\xFA\xFFAgS\xFF\xC0p\x80l\xC1a\xE6\xFFAa\xF6\xFF\xC0o\x80w\xC0e\xC0r\xC0.\x80o\xC0n\xC0e\xC1g\xB8\xFC\xC0s\xC0.\xC1g-\xFBAb\xF3\xFE\xC0t\x80a\xC1n\xF4\xFB\xC0r\xC0u\xC0s\xC0s\xC0i\xC0a\xC0.\x80b\xC0l\xC0o\xC0g\xC0s\xC0p\xC1o]\xFA\xC0u\xC0l\xC0i\xC0c\xC0h\xC0k\xC1i \xF9\xC0t\xC0b\xC0a\xC0l\xC0lA-\xE4\xFF\xC0.Ak\xF0\xFF\xC0s\xC0p\xC0o\xC0r\xC0t\xC0-\x80e\xC0x\xC1p^\xFD\xC0x\xC1p\xC4\xF9\xC1z\xC9\xF8\xC0t\xC1i\xBC\xF9Ae\xFD\xFF\xC1w\xC1\xF8\xC0l\xC0a\xC0v\xC0b\xC0u\xC0k\xC1h\xBA\xF8\xC0x\xC1b*\xFA\xC0l\xC0e\xC1r\xFF\xF8\xC0t\xC0e\xC0r\xC0i\xC0n\xC0s\xC0t\xC1v_\xFCAa\xF7\xFF\xC0i\xC0s\xC1tN\xF9\xC0s\xC0z\xC0o\xC0n\xC1eN\xF9\xC0y\xC17T\xFFAd\xD5\xFFAg\xD7\xFFAi\xDD\xFFAk\xDE\xFFAl\xB6\xF8Am\xE7\xFFAo\xEB\xFF\xC0sAa\xEE\xFF\xC0i\xC0b\xC0m\xC0a\xC1m\xE3\xF8\xC0o\xC0u\xC1sd\xFA\xC0l\xC0a\xC0y\xC0g\xC0r\xC0o\xC1u\xF5\xFAAe\xAA\xFFAm\xAB\xFF\xC0u\x80mA.\xD7\xFFAh\xEC\xFF\xC0s\xC0.Ad\x1C\xFAAp\xEA\xFF\xC0r\x80u\xC0s\xC0m\xC0e\xC0d\xC0s\xC0e\xC0r\xC1v\xD1\xF9\xC1i^\xFCAn\\\xFFAow\xFFAr\xDF\xFF\xC0tAk\xF7\xFF\xC1oF\xF9\xC0e\xC1e]\xFD\xC0t\xC1u\xC8\xFA\xC0o\xC0u\xC0r\xC0.\x80o\xC0t\xC0z\xC1y}\xFD\xC0n\xC0l\xC0o\xC1vO\xF8A-y\xFEA1{\xFEAa\x94\xFEAb4\xF8Ac\xA3\xFEAe\xAD\xFEAi\xFFAl\x1F\xFFAm)\xFFAo\xCF\xFFAr\xD8\xFFAs\xD9\xFFAt\xDA\xFFAu\xE1\xFF\xC1x!\xFC\xC1y\xC6\xF8\xC0g\xC0a\xC0m\xC0e\xC0.\xC1c\xB3\xF9\xC0m\xC0o\xC1b\xAE\xF8\xC1o\xB3\xFC\xC0r\xC0g\xC0i\xC1r\xAC\xFCAo\xFB\xFF\xC0r\xC1e\x18\xF8\xC0u\xC0r\xC1u\x01\xF8\xC0a\xC0r\xC0c\xC0h\xC0i\xC0v\xC1e7\xF8\xC0n\xC0e\xC1w\xC7\xF8Ac\xFC\xFFAm\xD7\xF8Ar\x13\xFB\xC0z\x80a\xC0r\xC0i\xC1u\x9D\xF9\xC0eA-\xCC\xFFA.\xD1\xFFA0\x9B\xF8Ad\xD1\xFFAe\xC2\xF9Af\xD4\xFFAg\xD7\xFF\xC0sA-\xD8\xFFA.\xE2\xFF\xC0f\x80o\xC0r\xC0b\xC1o\xF5\xF9AaM\xFC\xC0d\xC0e\xC0n\xC1ir\xF8\xC0t\xC0r\xC0o\xC0n\xC1o\xE4\xF8Ai\x9F\xF7Al\xA2\xFFAm\xD5\xFFAr\xED\xFFAs\xF2\xFF\xC0z\xC1e\x11\xFF\xC0e\xC0n\xC0a\xC0s\xC1n\x14\xFA\xC0t\xC1u\xFFAn\xC4\xFA\xC0tA-\xFA\xFF\xC0.\x80a\xC0d\xC0o\xC1b)\xFA\xC0l\xC0a\xC1y\x02\xF8Ap\xFC\xFF\xC0s\xC0g\xC1o\xD6\xFDAl\xFA\xFF\xC1s\xF2\xF7Ar\xFC\xFF\xC0s\xC0m\xC0e\xC0t\xC0e\xC0o\xC0.Ari\xF7\xC1u(\xF9\xC0k\xC1hb\xF7\xC0a\xC0v\xC0bAu\xFA\xFF\xC1y\xF9\xFF\xC1s\x1F\xFD\xC0d\xC0s\xC0o\xC0f\xC0t\xC0w\xC0a\xC1rU\xF9\xC0o\xC1o\xF0\xF8Ac\xFD\xFF\xC0z\x80o\xC1n\xC7\xF7A-\xFA\xFF\xC1f~\xFA\xC0h\xC0t\xC0t\xC0pA:F\xF7\xC1sC\xF7\xC0o\xC0mA$\xF6\xFF\xC1.\xF7\xF8Ad\xEE\xFF\xC0g\x80l\xC0e\xC0.Ac\xF4\xFF\xC1r-\xF7\xC0k\xC0o\xC1p'\xF7\xC18F\xF7A4\xFE\xFF\xC05\xC15 \xF7\xC0oAc\xF4\xFFAd\xF8\xFF\xC1s\xF0\xFF\xC1of\xF7Al\xFE\xFF\xC0u\x80s\xC0l\xC0u\xC1g\x82\xF8\xC0d\xC1o\xA9\xFEAl\xB3\xFFAo\xD5\xFFAr\xE8\xFFAs\xEF\xFF\xC0t\x80o\xC0v\xC0i\xC0mA-\xF0\xFF\xC1.\xFC\xF6\xC0u\xC0s\xC0-\x80r\xC0a\xC0p\xC0.\x80u\xC0c\xC1oH\xFEAd\xF5\xFF\xC0n\xC0a\xC0t\xC0a\xC0.\x803\xC1d#\xF8\xC0e\xC1ti\xF7Aa\xF3\xFFAe\xFB\xFF\xC0i\xC0b\xC0n\xC0i\xC0k\xC0-\x80c\xC0l\xC0u\xC1b\xF5\xF6\xC0k\xC0a\xC0b\xC0o\xC1b\x9F\xF7\xC0y\xC0a\xC1i\xEB\xF6Aa)\xFFAd4\xFFAe;\xFFAiR\xFFAl`\xFFAme\xFFAo\xB2\xFFAr\xD9\xFF\xC0uAb\xE5\xFFAl\xE9\xFF\xC0z\x80e\xC0i\xC0.\x80c\xC0o\xC1mC\xF7\xC0r\xC0a\xC0h\xC0a\xC1b\xCF\xF7\xC0y\xC0a\xC1w?\xFDAb\xF6\xFFAl\xFA\xFF\xC0p\xC0p\xC0y\xC0-\x80y\xC0e\xC0a\xC0r\xC0.\x80n\xC0a\xC0r\xC1o0\xF9\xC0m\xC0o\xC0o\xC0v\xC0i\xC1z[\xF7\xC0l\xC0t\xC0h\xC0.Am\x8B\xF7\xC1w+\xFBAa\xF8\xFF\xC0l\xC1p\xA1\xFA\xC0tAom\xF7\xC0v\xC1i\x16\xF9\xC0m\xC0o\xC0d\xC1r\xD1\xFE\xC0e\xC0e\xC0n\xC0g\xC0l\xC0i\xC1s\x08\xFF\xC0oA.\x7F\xF7\xC0s\x80c\xC0o\xC0p\xC0e\xC0s\xC0.\x80r\xC0a\xC0m\xC0b\xC1l\x81\xF7\xC0h\xC0a\xC0r\xC1tH\xF7\xC0o\xC0w\xC0n\xC0l\xC0o\xC0a\xC1d@\xF7\xC0l\xC0s\xC0.\x80t\xC0u\xC0r\xC0i\xC1z\x19\xF8Ah\xCD\xFFAm\xD0\xFFAr\xD6\xFF\xC0tAc\xE3\xFFAd\xE6\xFFAe\xEC\xFF\xC0m\xC0a\xC0i\xC1l\x14\xF7Aa\x8F\xFFAd\x9F\xFFAe\xAC\xFFAhK\xF6Ai\xAD\xFFAmz\xF6Ao\xE2\xFFAp\x04\xF7\xC0r\xC0-\x80p\xC0o\xC0r\xC1t\xDD\xFA\xC0m\xC0e\xC1s"\xFE\xC0y\xC1u\xF6\xF6\xC173\xF6\xC0l\xC1o\xFE\xF6Aa\xF4\xFF\xC0rAa\xF5\xFFAi\xF6\xFF\xC0oAf\xF5\xFF\xC0k\xC1a\xD7\xF7\xC1e2\xF7\xC0o\xC0v\xC0e\xC0k\xC0i\xC1n\xCF\xF9\xC0g\xC0e\xC1s\x19\xFAAa\xFC\xFF\xC1dL\xF7\xC0r\xC0a\xC1d\x93\xF7\xC0o\xC1mz\xFC\xC1a\xBC\xF8\xC1t
+\xFA\xC0rAf\xFB\xFFAl\xE5\xF6\xC0nAe\xF8\xFF\xC0i\xC0s\xC0-\xC1t6\xFBA-\xE8\xFFAm\xEA\xFF\xC0tAe\xEE\xFF\xC1v\xD0\xF5\xC0l\xC0a\xC1nw\xFF\xC0.\x80l\xC1v\xEC\xF5\xC0c\xC0o\xC0m\xC0m\xC1e`\xF8Ac\xF6\xFFAe\xF8\xFF\xC1r\xDD\xF5\xC0k\xC0a\xC0l\xC1k\x8D\xF9\xC0u\xC0b\xC0e\xC0.\x80c\xC0o\xC1mm\xF6\xC1ro\xFA\xC1b\xAD\xF7Ag\x9C\xFFAk\xA7\xFFAl\xA7\xFFAm\xB0\xFFAn\xCA\xFFAp\xD1\xFFAr\xDD\xFFAs\xE1\xFFAt\xE4\xFFAu\xEA\xFFAv\x08\xF7Ax\xE8\xFF\xC0zAh\xFA\xF5Aof\xF8\xC0v\xC0e\xC0s\xC1t\xDA\xF6\xC1v#\xFC\xC0t\xC1u\\\xF8\xC0a\xC1d\xC8\xF7\xC1m\xCF\xF5A-\xFE\xFF\xC1.|\xF5\xC1l\xAD\xF5Ab\xFA\xFF\xC0oAb\xFB\xFF\xC0o\xC1vB\xF6Aa\xE8\xFFAe\xE8\xFFAl\xE9\xFFAo\xF2\xFF\xC0u\xC0s\xC0t\xC1l\xE2\xFF\xC0a\xC1g\xF1\xFB\xC0a\xC0n\xC0.\xC1t\x94\xFF\xC0p\xC0r\xC0a\xC0k\xC0t\xC1i\xF8\xF6\xC0r\xC0o\xC0v\xC0i\xC0kA-\xF4\xFF\xC1.M\xF5\xC0f\xC0o\xC1lg\xF5\xC0p\xC0r\xC0o\xC1s\x92\xF5\xC0o\xC1b`\xFD\xC0a\xC0o\xC1kA\xF7Ab\xDB\xFFAd\xE5\xFFAi\xEC\xFFAk\xEE\xFFAn\xF1\xFFAr\xF2\xFF\xC0s\xC0p\xC0e\xC0r\xC0s\xC1kp\xF7\xC1e\xFC\xF6Ad\xFE\xFF\xC0e\xC0p\xC0f\xC0l\xC0o\xC0w\xC0e\xC1r\xA2\xF5\xC0e\xC0a\xC1t0\xF5At\xFC\xFF\xC0v\x80-\x80o\xC0n\xC0l\xC1i[\xF5\xC0d\xC0r\xC0o\xC0g\xC1e\xF9\xF6Ai\xFA\xFF\xC0u\x80c\xC0h\xC1oo\xF5Ag\xF9\xFF\xC0t\x80r\xC02\x800\xC10\x1B\xF5\xC0a\xC0n\xC0d\xC1a\xC6\xF5\xC0i\xC0l\xC0m\xC1s\x93\xFF\xC0a\xC1d\x05\xF5\xC1i\x1D\xF6\xC0aAf\xFD\xFF\xC1n?\xFD\xC0n\xC0l\xC0i\xC0n\xC1e\x83\xFF\xC0o\xC0i\xC1s\x7F\xF6\xC0i\xC0d\xC0e\xC0o\xC1hT\xF6Ad\xD4\xF4\xC0n\xC0oA-\xBA\xFFA.\xCE\xFFAb\xD4\xFFAf\xD7\xFFAk\xDA\xFFAm\xDD\xFFAnH\xF5Ao\xDE\xFFAp\xE2\xFFAv\xE4\xFF\xC0z\x80a\xC1l]\xFF\xC0eAo\xB7\xF4\xC1rX\xF6\xC0g\xC0i\xC0.\xC1t\xB3\xFFAi\xFB\xFF\xC0o\xC0w\xC0l\xC0e\xC0d\xC0g\xC0e\xC0.\x80a\xC0l\xC0l\xC0b\xC1e\x08\xF6\xC1g\xA7\xF6\xC0e\xC0s\xC0a\xC0.\x80k\xC1z\xBB\xF4\xC0n\xC0d\xC0i\xC0r\xC0o\xC1v\xAC\xF7\xC0e\xC0r\xC1s,\xF9Aa\xF5\xFFAm\xFA\xFF\xC1u\x0C\xF5\xC0t\xC0a\xC0k\xC1t\x08\xF8Ab\x7F\xF4\xC0l\x80i\xC0n\xC1a\x92\xF4Ad\xDA\xFFAl\xDA\xFFAm\xEA\xFFAn\xEE\xFFAo\xF1\xFF\xC0s\x80m\xC0e\xC0t\xC0i\xC1s\xE8\xF4\xC0e\xC0d\xC0i\xC0t\xC0o\xC1v\xFF\xC0i\xC0n\xC1g/\xF5\xC0i\xC1n&\xF5A-\xF7\xFEA4E\xF5Aa\x1B\xFFAe.\xFFAh\x14\xF9Ai{\xFFAl\x95\xFFAn\x9D\xFFAo\xD1\xFFAp\xDA\xF4Ar\xDE\xFF\xC0uAk\xE2\xFFAl\xE4\xFF\xC0r\x80o\xC0r\xC0t\xC0m\xC1a\xB3\xF6\xC0i\xC0r\xC1i\xD6\xF8Ab\xFC\xFF\xC0s\xC0t\xC1fr\xF5\xC0n\xC1tK\xF6\xC0l\xC0d\xC0e\xC0b\xC0a\xC0r\xC1aa\xF5Aa\xF8\xFF\xC1rC\xF4A.\xFC\xFF\xC0e\x80r\xC0t\xC0y\xC0c\xC0i\xC1t]\xF6\xC0o\xC1me\xF7\xC0eAd\xFC\xFFAn9\xFC\xC0s\xC0t\xC0y\xC0l\xC1eK\xF7\xC0k\xC0e\xC0d\xC1i\xEF\xF8Aa\x01\xF4\xC1e\x85\xF4Ar\xFC\xFF\xC0t\xC0l\xC0e\xC0f\xC1o!\xF8\xC0n\xC0t\xC0e\xC1r\xC2\xF6\xC0o\xC0u\xC0r\xC1n\xAF\xF8\xC0i\xC1b\xEA\xF3\xC0a\xC0s\xC1t\x13\xF6Ab\xC6\xFFAf\xD1\xFFAn\xDA\xFFAt\xE1\xFF\xC0v\xC0eAi\xE5\xFFAj\xE8\xFFAl\xEB\xFFAm\xEC\xFF\xC1t/\xF9Ap\xF2\xFE\xC1v;\xF4\xC1p=\xFAAm\xD1\xF4\xC1rk\xFD\xC0a\xC1t\xCA\xF5\xC0i\xC0n\xC0o\xC1z\x82\xF8Ao\xF2\xFF\xC0v\x80eA.\xF0\xFFAh\xF2\xFFAk\xF3\xFF\xC0p\xC0l\xC1a$\xFC\xC0t\xC0i\xC0kA.\xAE\xF3\xC1i\xCC\xF3Aav\xFFAez\xFFAi\xC1\xFFAj\xD3\xFFAo\xE3\xFF\xC0uAn\xEE\xFF\xC0r\xC0k\xC0m\xC0o\xC0r\xC0e\xC0.\xC1ts\xFA\xC0v\xC1in\xF7\xC0a\xC1p\x9A\xFD\xC0d\xC0n\xC0o\xC0k\xC0l\xC0a\xC0s\xC0s\xC0n\xC0i\xC1k\xB9\xFCAa\xEE\xFFAm\xEF\xFFAo\xF0\xFF\xC1v\xB4\xF9\xC0o\xC0o\xC0g\xC1l\x1F\xF6\xC0a\xC0m\xC0b\xC0l\xC0e\xC0r\xC0.\x80r\xC0u\xC0$\x80h\xC0t\xC0t\xC0pA:\x90\xF3\xC1s\x8D\xF3\xC0o\xC1o\xF6\xF4\xC0lA-o\xF3\xC0.Ag\xE2\xFFAr\xE5\xFF\xC0y\x80aAh\xF3\xFF\xC0n\xC0d\xC0e\xC1x\xE2\xFF\xC1b\xCE\xF3\xC0o\xC0o\xC1g\xD1\xFDAg\xFC\xFF\xC1yl\xF7Ar^\xF6\xC0sA.\xF9\xFF\xC0s\x80h\xC1o\xE7\xF3\xC0t\xC0h\xC0o\xC0n\xC0b\xC1e8\xF5\xC1eN\xFDAa\xF7\xFFAk\xFC\xFF\xC0s\xC0h\xC0r\xC1u\x15\xFF\xC0m\xC0e\xC0d\xC0v\xC1e\xC4\xF5\xC0aA-\xF9\xFF\xC0m\xC0e\xC0d\xC0v\xC0e\xC0d\xC0.\x80t\xC1v\x1B\xF3Ah\xF3\xFF\xC0t\x80e\xC0rAc\xFA\xFE\xC0p\x80o\xC0i\xC0s\xC1k\x91\xF3Ai\xAA\xFFAm\xB9\xFFAp\xC1\xFFAr\xD1\xFFAs\xEB\xFF\xC0x\x80i\xC0w\xC0a\xC0r\xC0e\xC1z\xF9\xF2A.\x19\xF3\xC0n\xC1ft\xF3\xC0r\xC1uk\xF5\xC0i\xC1n\xE3\xFF\xC1o'\xF6\xC0o\xC0r\xC0t\xC1a\xF0\xF3Ai\xEE\xFFAk\xF1\xFFAl\xF2\xFFAm\xF3\xFFAp\xF3\xFF\xC0u\x80n\xC1i.\xF8\xC0o\xC1t\x89\xF4\xC0r\xC0i\xC0t\xC1iU\xF7\xC0aAb\xF7\xFFAc\xF8\xFFAf\x05\xF6\xC0l\x80y\xC0r\xC0i\xC1c\xB7\xF3\xC0b\xC0r\xC0e\xC0s\xC0.\x80m\xC0u\xC0l\xC0t\xC0i\xC0m\xC0a\xC0n\xC0i\xC0a\xC0.\x80f\xC1r\xD5\xF2\xC0c\xC0a\xC1f\x8E\xF3\xC0n\xC1f\x80\xF6\xC0o\xC1vr\xF3\xC0oAi\xF9\xFFAn\xFA\xFF\xC0p\xC0r\xC0o\xC1g^\xF4Ad\xB6\xFFAg\xCA\xFFAm\xD5\xFF\xC0tAa\xE5\xFFAe\xED\xFF\xC0r\xC1o\xB3\xF6\xC0r\xC0o\xC0s\xC0o\xC1f\x8B\xF4\xC0l\xC0i\xC0o\xC0n\xC0p\xC0o\xC0d\xC0a\xC0r\xC1k\xCD\xF4\xC02\x80w\xC1i\xCE\xF2\xC0n\xC0i\xC1g\x0B\xF4\xC0e\xC1sj\xFD\xC0r\xC0i\xC0a\xC1l\xBD\xF4Ae\xFB\xFF\xC0o\xC0v\xC0e\xC1t\xC3\xF7Ak\xED\xFFAp\xEF\xFFAs\xF5\xFF\xC0u\x80r\xC0o\xC1k\xB8\xF7Ac\xCD\xFFAl\xD1\xFFAn\xDA\xFFAr\xEF\xFF\xC0s\x80s\xC1f\xCE\xF3\xC1oL\xFD\xC0o\xC0h\xC0e\xC0l\xC1pu\xF4\xC0o\xC0g\xC1a\xA3\xF2\xC0l\xC1i&\xFA\xC0iA-\xFC\xFFAgZ\xFA\xC0l\xC0e\xC0.\x80d\xC1e9\xF2\xC0o\xC1t1\xFD\xC0f\xC0a\xC1q/\xF2\xC0o\xC0wA-\xFA\xFF\xC0.\x80m\xC0e\xC0g\xC0a\xC1f\x17\xF5\xC1i\xF3\xF5Ac\xF3\xFFAg\xFC\xFF\xC0k\x80v\xC0a\xC0.Af\xFD\xF2\xC0m\xC0s\xC0k\xC0.\x80s\xC0l\xC0a\xC0n\xC1d\xE4\xF5\xC0a\xC0r\xC0e\xC0k\xC1l\xD5\xF7\xC0r\xC0u\xC0s\xC1s\xEA\xF7Ab\xC2\xFFAl\xCB\xFFAs\xDD\xFFAy\xEF\xFF\xC0z\x80i\xC0l\xC0l\xC0aA-\xEE\xFF\xC1.\xAF\xF8\xC0y\xC1o\x0F\xFA\xC0s\xC0h\xC0m\xC0i\xC0d\xC1t\xB9\xF2\xC0s\xC0t\xC0r\xC1o\xA7\xF9\xC0i\xC0s\xC1k>\xF2\xC0i\xC1mx\xF8A-\xEA\xFFA.\xEB\xFFAlV\xF2Ao\xEE\xFF\xC0pAo\xF0\xFFAr\xF2\xFF\xC0u\xC1lm\xF9A3\xF0\xFF\xC0l\xC1e\xEE\xF2A7\xC5\xF1\xC0u\xC12\x9C\xF2\xC1nK\xF3Ad\xFE\xFF\xC1k\x8F\xF7\xC0i\xC0l\xC0m\xC0c\xC1h\xFE\xF6\xC0-\x80o\xC0n\xC0l\xC1i2\xF9\xC0kAi\xF9\xFF\xC1o\x9A\xFC\xC0n\xC1l\x19\xF8\xC0tA-\x93\xFCAf\xE9\xFFAi\xF3\xFFAo\xF6\xFFAsw\xF8\xC1x1\xF8\xC1v\xCF\xFAAi\xFE\xFF\xC1y\xBB\xF5\xC0i\xC0s\xC1t\xBE\xF4\xC0p\xC03\x80s\xC0p\xC1b<\xF2\xC0cA.\xF1\xFFAl\xF3\xFFAm\xF5\xFF\xC1o\xA3\xF1Ae\\\xF6Ai\xF5\xFF\xC0l\xC1i\xA7\xFA\xC1cO\xF5\xC0a\xC0r\xC0o\xC1dE\xF2Al\xCC\xFFAs\xF0\xFF\xC0zA.\x8F\xF1Ai\xF2\xFFAn\xF2\xFF\xC0o\x80f\xC1oU\xF3\xC0.\xC1k\xCE\xF8Af\xFD\xFF\xC0i\xC0d\xC1e\xAC\xF1Ah\xF0\xF7\xC1s\x1A\xFE\xC1a.\xF4\xC0l\xC1a:\xFD\xC1o\x01\xFAA.\xCE\xFDAaD\xFEAe\xB0\xFEAi\xEF\xFEAkG\xF1Al\xF7\xFEAm\xF7\xFEAn\xFB\xFEAo>\xFFAps\xFFArv\xFFAs{\xFFAt\xBD\xF1Au\xC3\xFFAv\xD3\xFF\xC0yA-\xD6\xFFA.F\xF2Aj\xD6\xFFAp\xD6\xFF\xC0sAc\xD6\xFF\xC0p\x80a\xC1c\x04\xF2\xC1n(\xFE\xC0h\xC0g\xC0o\xC0r\xC0o\xC0d\xC0.Ap\xF7\xFF\xC1r\x18\xF1\xC0l\xC0i\xC0e\xC0-\x80t\xC0o\xC1u\xF2\xFBAl\x85\xF3As\xEB\xFF\xC0tAa\xF3\xFF\xC0u\x80r\xC0a\xC0l\xC0-\x80m\xC0e\xC0d\xC0i\xC1c\xED\xFB\xC0o\xC1s\xA3\xF4\xC0s\xC1tk\xFE\xC1pQ\xF6\xC1g\xE5\xF1Aa\x94\xFA\xC1u4\xF4\xC0p\xC0o\xC0r\xC0t\xC1b\xF1\xFCAm\xED\xF1An\xF2\xFFAr\xF2\xFFAs\xF4\xFF\xC1y\x04\xF5\xC1a\xAC\xF4A.\xF4\xFFAl\xFC\xFF\xC1r\xC2\xFA\xC0a\xC0r\xC0i\xC0f\xC1f\xC3\xF1Ae\xD7\xFFAm\xD8\xFFAs\xF0\xFFAt\xF4\xFF\xC0w\xC0o\xC1m\xA0\xFCAv\xC8\xFFAw\xF2\xFF\xC1x\xD8\xFAA.\xBD\xF0\xC1s\xBA\xF0\xC1eT\xFB\xC0v\xC0a\xC0n\xC0a\xC0.\xC1fI\xF2Ac\xF7\xFFAr\xF7\xFF\xC1x\xAB\xF0A.\xAA\xF0\xC1m\xC8\xF0\xC0o\xC0r\xC0o\xC1g\xBE\xF3\xC0-\x80w\xC0i\xC0n\xC1g"\xF1Ak\xAF\xFBAs\xF3\xFF\xC0vAa\xF5\xFF\xC0o\x80s\xC0i\xC0b\xC0i\xC0r\xC0s\xC0k\xC0.\xC1d]\xF2\xC1p\x9E\xFD\xC0vA.\x86\xF0\xC1p\xA9\xF6Aau\xFFAe\xBD\xFFAg\xC1\xFFAi\xCC\xFFAn\xD0\xFFAo\xDD\xFFArw\xF6As\xEB\xFFAt\xEB\xFF\xC0v\xC0i\xC1d\xC6\xF8\xC1u\xD8\xF0\xC0e\xC0p\xC0y\xC0a\xC1t\xE2\xFCAh\xFA\xFF\xC0u\x80l\xC0u\xC1s\xF1\xF0\xC1i\x95\xF4\xC0f\xC0a\xC1qy\xF0\xC1ez\xF0Ab\xFE\xFFAr\xE7\xF0\xC1u\x13\xF2\xC0n\xC0o\xC0k\xC0l\xC0a\xC0sAn\xEC\xFF\xC0s\xC0n\xC0i\xC0k\xC0iA-\xE7\xFFA.\xEB\xFFAg\xC6\xF9\xC0h\x80e\xC1l\xE3\xF0\xC0f\xC0i\xC0c\xC1e\xBF\xF1\xC0d\xC0o\xC0m\xC02\x80.\x80n\xC0a\xC0r\xC1o\xFB\xF3\xC0-\x80z\xC0n\xC1a\xAB\xF2\xC0i\xC0n\xC0f\xC0i\xC0l\xC0m\xC0.\x80u\xC0c\xC0o\xC1z\xD7\xF0A-\xE5\xFFAa\xED\xFF\xC0lAa\xEF\xFF\xC0i\xC0n\xC0eAg+\xF8\xC1m\xA3\xF5\xC0z\xC0c\xC0i\xC0t\xC1y\x9A\xF1\xC0e\xC0r\xC0a\xC0.Ac\xE3\xF0Ai\xF4\xFF\xC1y!\xF4\xC0s\xC0h\xC0k\xC1o\x85\xFAAe\xFB\xFF\xC1s_\xF0\xC0l\xC0i\xC1k\xAA\xFD\xC0i\xC0h\xC0.\x80n\xC0a\xC0k\xC0u\xC0b\xC0a\xC1n\x19\xF9\xC0b\xC1e\xBA\xF6\xC0e\xC0r\xC0r\xC0e\xC0f\xC0e\xC0r\xC0a\xC0t\xC1s0\xFBAm\xDA\xF0\xC0r\xC0e\xC0f\xC0.\x80b\xC1y\xF0\xEF\xC0e\xC0tA.\xF5\xFFAi\x03\xF1\xC0y\x80.\xC1gv\xFCAb\x91\xF2Ad\xD2\xFFAe\xDB\xFFAh\xDC\xFFAv\xEE\xFF\xC0z\xC1y\xF0\xEF\xC1r\x13\xF6\xC0a\xC1l\xB5\xF1AbC\xFFAcI\xFFAd\\\xFFAfq\xFFAn\x8F\xFFAp\xA1\xFFAr\xAE\xFFAs\xB0\xFFAt\xDE\xFFAu\xE9\xFFAv\xE9\xFF\xC1z\xD3\xF2\xC0r\xC1z4\xF2\xC0s\xC0sA.\xFB\xFF\xC1i\xCA\xF2\xC0p\xC0e\xC0n\xC0s\xC0i\xC0o\xC0n\xC1e\x97\xEFA-\xF7\xFF\xC0h\xC0e\xC0l\xC0p\xC0f\xC0o\xC1r\xB4\xF7\xC0s\xC0o\xC0v\xC0e\xC0t\xC0.Ao'\xF0\xC1s\x95\xEF\xC0s\xC0t\xC0r\xC0e\xC0a\xC0m\xC0.\x80b\xC1i\xD1\xFA\xC0p\xC0l\xC0eA-\xF3\xFF\xC1sa\xEFAd\xE5\xFFAg\xD2\xF4Ao\xF5\xFF\xC0r\x80s\xC0o\xC0n\xC0a\xC0.\x80r\xC1i\x8F\xF0\xC1rj\xF0\xC0s\xC0p\xC0a\xC1cP\xF1\xC0o\xC0t\xC0oA-\xF8\xFF\xC0s\x80i\xC0g\xC1hF\xF0\xC0u\xC1l\xB1\xF0Al\xFD\xFF\xC0r\xC0a\xC0n\xC1yi\xF0\xC0y\xC0g\xC0r\xC0o\xC1u\x01\xF3Aa\xFA\xFF\xC0u\x80s\xC0.\x80g\xC0o\xC0o\xC0g\xC0l\xC0e\xC0.\x80c\xC0o\xC1mt\xF3\xC0o\xC0d\xC0a\xC0.Am"\xF0Ar<\xEF\xC1y=\xF3\xC0s\xC1k\xE9\xF0\xC0e\xC0l\xC0a\xC1nD\xF2\xC0u\xC0s\xC0h\xC1aQ\xF1\xC0i\xC0s\xC1m\x9E\xF3\xC0a\xC1tv\xF0\xC0i\xC1x\xE3\xFEAj\xFA\xFF\xC0t\x80aAl\xF9\xFF\xC1s\xA0\xF6\xC0e\xC0l\xC0o\xC0v\xC0o\xC0i\xC0g\xC1o]\xF8\xC0t\xC0i\xC0n\xC0d\xC0e\xC0x\xC0.Ad\xF0\xFF\xC0e\xC0s\xC0o\xC0s\xC0e\xC1d\x15\xF8\xC0a\xC0r\xC0e\xC0n\xC0o\xC1kk\xEF\xC0-\x80a\xC0n\xC0g\xC1e\xDB\xEFAa\xFA\xFF\xC1r\xD0\xEE\xC0a\xC0n\xC1d\x1B\xF0Ag\xA9\xFFAi\xB1\xFFAj\xB2\xFFAk\xB5\xFFAl\xB8\xFFAr\xC0\xFFAs\xCF\xFFAv\xDD\xFF\xC0z\x80d\xC0r\xC0a\xC0vA.\xE3\xFFAiT\xF0Al\xE3\xFF\xC1o\x1A\xEF\xC0v\xC0c\xC0o\xC1n.\xEF\xC0d\xC0s\xC0k\xC0a\xC1z\x92\xFF\xC0o\xC0l\xC0.\xC1i[\xEF\xC0m\xC0u\xC1s\xC8\xFB\xC0r\xC1y\xCA\xEEAe\xF9\xFFAo\xFB\xFF\xC0p\xC0o\xC0g\xC1o\x15\xEFAk\xEB\xFFAm\xF5\xFF\xC0s\x80n\xC0i\xC0l\xC0o\xC0s\xC0.\xC1s\x82\xEE\xC0k\xC0o\xC1l\x8E\xEEAa\xCF\xFFAe\xD2\xFFAi\xEB\xFF\xC0o\x80sAh\xF4\xFF\xC1vp\xEEAa\xDB\xFEAc\xE8\xFEAe\x0B\xFFAf\x18\xFFAh\x1D\xFFAi(\xFFAl3\xFFAo\x98\xFFAr\xE4\xFF\xC0u\xC0l\xC0s\xC0e\xC1t\xEB\xEEAi\x00\xEF\xC0u\x80i\xC0c\xC1k\xD3\xF2\xC1o\xCC\xF5\xC0i\xC0o\xC1p\x17\xFCAb\xFA\xFFAd\xFA\xFFAs\xC8\xF7\xC0z\x80u\xC0z\xC1nu\xF7A.?\xEE\xC1c<\xEE\xC0lAm\x9F\xFF\xC0t\xC1y\xFC\xF9\xC0-\x80w\xC0a\xC0r\xC1e\x88\xF5\xC1e\xBD\xF4\xC1o\x0B\xFDAi\xFE\xFF\xC1n\x04\xF3\xC0a\xC04\x80o\xC1k\xB9\xFE\xC0e\xC0w\xC1s\x94\xFDAa\xE3\xFFAd\xE7\xFFAf\xEB\xFFAg\xED\xFFAp\xEF\xFF\xC0vAi\xF1\xFF\xC0o\xC0l\xC0u\xC0t\xC0i\xC0o\xC1ne\xF9A.	\xEE\xC0b\xC1-\x02\xF5\xC1s\xD3\xF0\xC0a\xC1l\x05\xEF\xC1e\xFD\xFF\xC0sAb\xFA\xFFAr\xFB\xFF\xC0t\xC0e\xC0p\xC1lD\xEE\xC15\x13\xEE\xC0d\xC0-\x80k\xC0v\xC1nW\xF7Ab\xEA\xEDAn\xF8\xFF\xC0t\xC0c\xC0a\xC0r\xC1sw\xEF\xC0r\xC0u\xC0.\x80f\xC0a\xC0c\xC0e\xC0b\xC0o\xC1o\x10\xF4\xC0l\xC0.\x80b\xC0i\xC1z\xD4\xEDAl\xFA\xFF\xC0s\xC1u\xEA\xFF\xC0e\xC1re\xF4Ap\xFD\xFF\xC0r\xC0i\xC0f\xC0l\xC0a\xC1mi\xF0\xC0i\xC0kAi\xA0\xF3\xC0t\x80i\xC0o\xC0n\xC0a\xC0r\xC1ye\xEEAa\xE3\xFFAm\x9F\xEFAo\xE7\xFFAw\xEE\xFF\xC0y\xC0a\xC1hF\xFA\xC0l\xC0i\xC1p\x86\xEE\xC0o\xC0c\xC0s\xC0.\x80e\xC0x\xC0d\xC1a/\xEF\xC0m\xC1aB\xEE\xC0c\xC0t\xC1ox\xF8\xC1d\xA4\xED\xC0o\xC0o\xC0t\xC0b\xC0a\xC0l\xC0l\xC0.\x80i\xC0n\xC0f\xC1o\x88\xED\xC0o\xC1t\xD1\xED\xC0r\xC0o\xC0f\xC1i\xCD\xFD\xC0o\xC0o\xC1d\xC9\xF6A-\xDE\xFFAa\xDF\xFFAe\xE1\xFFAf\xE1\xFFAku\xF7Al\xEA\xFFAp\xEB\xFF\xC0s\x80i\xC0a\xC0nAf\xEA\xFF\xC1p\xD7\xF3A-\x81\xFFA.\xAD\xFFAc\xB7\xFFAd\xB9\xFFAs\xE2\xFF\xC0tAu^\xF0\xC1vu\xEDAa	\xFFAb\x12\xFFAe1\xFFAgD\xFFAii\xEFAlE\xFFAoJ\xFFApR\xFFAsX\xFFAu\xDF\xFF\xC1z\xDD\xEF\xC1h\x1E\xEEArL\xED\xC0s\xC0u\xC0n\xC1g\x17\xEE\xC0k\xC0t\xC0-\x80p\xC0e\xC0t\xC0e\xC0r\xC0b\xC0u\xC0r\xC0g\xC0.\x80l\xC0e\xC1n\x11\xFBAk\xE6\xFFAm\xE6\xFFAn\xEB\xFF\xC0y\xC17\x92\xFF\xC0r\xC0b\xC0a\xC0n\xC0k\xC1-\x89\xF2Ae\xF9\xFF\xC1r*\xEE\xC0c\xC0o\xC0l\xC0l\xC0e\xC0c\xC0t\xC0i\xC0o\xC0n\xC0.\x80e\xC1d"\xF5\xC0o\xC0o\xC0lA-\xEF\xFF\xC0o\x80t\xC1zD\xFDAh\xF7\xFF\xC0r\xC0i\xC1bJ\xF0\xC0s\xC0o\xC0n\xC1v\x10\xF0\xC1r\xEA\xF6Ah\xFE\xFF\xC1nl\xED\xC0e\xC0y\xC0-\x80m\xC0a\xC0v\xC0r\xC0o\xC0d\xC1ir\xEEAg\xF5\xFF\xC0i\xC0a\xC0lAg\xF4\xF4\xC1u\xA5\xEDAa\xE1\xFFAf\x0B\xF0Ao\xE4\xFFAr\xF1\xFF\xC0v\x80e\xC0l\xC1i\x80\xF5\xC0o\xC0l\xC0a\xC0z\xC0h\xC0i\xC1z\xDC\xFCAk\xF8\xFF\xC0u\x80m\xC02\x80m\xC0o\xC1n\xD2\xF1\xC0i\xC0r\xC0i\xC0n\xC0a\xC0.\x80t\xC1s \xEE\xC0o\xC0p\xC0t\xC0i\xC1ke\xEDAk\xF1\xFFAn\xF8\xFF\xC0t\x80e\xC0s\xC0.\x80g\xC0o\xC0o\xC0g\xC0l\xC0e\xC0.\x80c\xC0o\xC1m)\xF9\xC0c\xC0h\xC0a\xC0t\xC0-\x80b\xC0e\xC0s\xC0p\xC0l\xC0a\xC1t\x8E\xF6\xC0eA.g\xED\xC0c\xC0l\xC1u\x96\xF8Aa\xEC\xFF\xC0yAp\xF6\xFF\xC0s\xC0c\xC0a\xC0n\xC1n\xA2\xEEAad\xFA\xC0o\x80v\xC0o\xC0.\x80w\xC1s\x90\xEC\xC0l\xC0l\xC0-\x80g\xC0a\xC0m\xC0e\xC1s=\xF3\xC0s\xC0h\xC0a\xC1r\x02\xFC\xC1r\x7F\xFFAa\xF0\xFFAe\xF7\xFF\xC0oAt\xF9\xFF\xC1zt\xEC\xC0e\xC1r\xE3\xECAc\xFD\xFF\xC0i\xC0a\xC0l\xC0.\x80t\xC0e\xC0c\xC0h\xC0n\xC0e\xC1t\xCD\xED\xC0s\xC0o\xC0f\xC1t\xCF\xFF\xC0y\xC0d\xC1i\xC8\xF6Am\xFC\xFF\xC0s\xC0o\xC0f\xC0t\xC1o\xA7\xFB\xC0o\xC0r\xC0f\xC0r\xC1e\x0C\xED\xC0u\xC1ml\xF1\xC0tA-\xE5\xFFA.\xEC\xFFAf\xF2\xFFAk\xF6\xFF\xC0p\x80o\xC0r\xC0t\xC1a\xE7\xF5\xC0n\xC0e\xC0t\xC0.\xC1e\xDD\xF9\xC0n\xC0i\xC0kA.\x0F\xEC\xC0i\xC1.\xDB\xEE\xC0m\xC0a\xC0r\xC1k\xD7\xEEAc\xB6\xFFAf\xDC\xFFAl\xE9\xFFAn\xED\xFFAt\xF3\xFF\xC0v\xC0s\xC1p-\xF2\xC0c\xC1e\xE8\xEC\xC0e\xC0d\xC0t\xC0e\xC0s\xC1tM\xEC\xC0a\xC1m!\xF5Ac\xFD\xFF\xC0s\xC1h-\xEE\xC0e\xC0t\xC1n\x8D\xF6\xC0e\xC0x\xC0p\xC0r\xC1e\x92\xF1\xC0r\xC0uA$\xDC\xEB\xC1.\xC4\xED\xC0r\xC0tA-\xF2\xFFA.\xF6\xFF\xC1s\xCE\xEB\xC0s\xC0h\xC0i\xC1v\xFE\xF4Aa\xD1\xFFAb\x98\xF1Ae\xD0\xFFAi\xD8\xFFAl\xDB\xFFAo\xE9\xFF\xC0rA.\xBB\xEBAa\xEC\xFF\xC0i\xC1n\xCF\xF7\xC0k\xC0o\xC0v\xC0e\xC0r\xC0f\xC0l\xC0o\xC1w@\xED\xC0o\xC1i\x14\xEC\xC0u\xC0sAp\xFB\xFF\xC1y!\xFDAc\xED\xFFAt\xF8\xFF\xC0v\xC1c\x11\xEE\xC1r\xC0\xF1\xC0h\xC0iA-\xFC\xFF\xC1.\x94\xEB\xC1o\xC7\xF4Ab\xFE\xFF\xC0p\x80g\xC0a\xC1m\xBE\xEB\xC0m\xC0a\xC0s\xC0t\xC0e\xC1r\xDF\xF0\xC0nAa\xF8\xFF\xC0i\xC0c\xC0a\xC1m\xE6\xF4Aa\xD9\xFFAi\xE0\xFFAo\xE6\xFF\xC0rAa\xF1\xFF\xC0o\xC1yQ\xF5\xC0s\xC0c\xC0r\xC1ir\xEE\xC1h\xF8\xF0\xC1o|\xF7\xC0a\xC0d\xC0o\xC1v\x7F\xFF\xC0rAc\x10\xF9Aj\xF6\xFFAs\xF6\xFF\xC0t\xC0o\xC0s\xC0t\xC1y\xE7\xEBAb\xE5\xFFAn\xE8\xFF\xC0pAe\xEE\xFF\xC0p\x80o\xC1r\x07\xFF\xC0a\xC1.\xB8\xF3\xC0dAb\xFC\xFF\xC0e\xC0b\xC0k\xC0a\xC0.\x80w\xC1s>\xEBAa\xF5\xFFAez\xEC\xC0y\x80a\xC0z\xC1n\x84\xF3\xC0f\xC0g\xC0a\xC1m8\xFF\xC0p\xC0a\xC0t\xC1y\x87\xEBA7&\xEBAa\x02\xFEAb\x10\xFEAc)\xFEAeL\xFEAh_\xFEAiu\xFEAk\x9A\xFEAl\xA3\xFEAm\xBA\xFEAo\x0E\xFFApI\xFFAt\x95\xFFAu\xBA\xFFAv\xD1\xFFAw\xD8\xFF\xC0yAm\xDA\xFF\xC0p\x80e\xC0r\xC1-`\xF1Ao\x16\xEB\xC0u\x80l\xC0o\xC0r\xC0a\xC0s\xC1a\xD0\xF1\xC0k\xC0s\xC0.\x80g\xC0u\xC1n\xE2\xEBAb\xEF\xFFAl\xF7\xFF\xC0n\x80k\xC0i\xC0o\xC0n\xC0l\xC0i\xC1n\x8B\xED\xC1o\xD3\xEB\xC0n\xC0a\xC1rO\xEC\xC0e\xC1m\\\xEFAc\x92\xFEAg\xF5\xFFAh\xF5\xFFAr\xF7\xFF\xC0z\xC0t\xC0o\xC0u\xC1r\xAD\xEB\xC1iP\xF5\xC0-\xC1p\xFB\xFF\xC1n\xBD\xFBAc\xFB\xFFAe\xFC\xFF\xC1u\xDF\xEA\xC1ea\xF6Ak\xFE\xFF\xC0o\xC0w\xC0n\xC0l\xC0o\xC1aR\xED\xC0k\xC0o\xC0s\xC1t\xE4\xF3\xC0t\xC0o\xC0r\xC0r\xC0e\xC1nj\xFE\xC1bj\xEFAr\xFE\xFF\xC0s\xC0v\xC0e\xC0t\xC0o\xC1z\x9B\xEC\xC0o\xC0t\xC0e\xC1l9\xFAA-\xE9\xFFA.\xF0\xFFAh\xF7\xFF\xC1n\x13\xEBAg\xA4\xEB\xC0r\xC0e\xC0n\xC0t\xC0-\x80g\xC0a\xC0m\xC0e\xC1sS\xEB\xC1hX\xF3\xC0rAi\x96\xF6\xC0o\xC1ui\xEBAd\xBE\xFFAn\xC5\xFFAp\xDF\xFFAr\xE5\xFFAs\xF0\xFFAu\xF0\xFF\xC0y\x80o\xC0t\xC1a\xDE\xF9\xC0o\xC0o\xC0g\xC0l\xC0e\xC0.Ac\xF8\xEB\xC1r\x82\xEA\xC0a\xC0t\xC0e\xC0.Ag\xF2\xFFArY\xEA\xC1y{\xEE\xC0n\xC0sAl\xF4\xFF\xC0p\x80o\xC0r\xC0t\xC0.\x80m\xC0a\xC0r\xC0s\xC0h\xC0r\xC1u\xB4\xF0\xC0i\xC1x\xB2\xF0Aa\xEC\xFF\xC0iAn\xFA\xFF\xC0p\x80a\xC0d\xC0v\xC0i\xC1s4\xEC\xC0u\xC1lR\xF2\xC1zs\xEB\xC0r\xC0a\xC0v\xC1d]\xEB\xC0v\xC0o\xC1dC\xEDAi\xF5\xFFAp\xF5\xFFAs\xF8\xFF\xC1y\xB2\xEA\xC0b\xC1y\x1F\xEAAl\xE7\xFFAr\xF3\xFF\xC0tA.\xF8\xFF\xC1u\x13\xEAAm\x18\xEB\xC1y5\xEEA.\xFC\xFF\xC0iAd}\xEB\xC1gX\xFA\xC0p\xC1x\xE7\xEAAa\x16\xFFAe*\xFFAf6\xFFAhw\xECAi9\xFFAo\x81\xFFAr\xB8\xFFAu\xDB\xFFAv\xE6\xFF\xC0w\x80iAr\xE9\xFF\xC0t\xC0t\xC0e\xC1rS\xFD\xC0t\xC0u\xC1b\xEB\xEB\xC0.\x80a\xC1l\xFC\xC1o\xE6\xF3\xC1b\xA9\xEA\xC0hAe\xFD\xFFAm\xA0\xF5\xC1p\xBA\xF3A.\xB5\xEF\xC1r2\xEA\xC0i\xC0v\xC0e\xC0r\xC0t\xC1v\xF9\xECAa\xCA\xE9\xC1o\x06\xF1\xC0u\xC0a\xC0r\xC0i\xC0o\xC0s\xC0.\x80m\xC0u\xC0l\xC0t\xC0i\xC0m\xC0a\xC0n\xC0i\xC0a\xC0.\xC1eH\xFD\xC0n\xC0t\xC0i\xC0.\x80m\xC0u\xC0l\xC0t\xC0i\xC0m\xC0a\xC0n\xC0i\xC0a\xC0.\xC1iw\xEA\xC0r\xC0r\xC0e\xC0n\xC0t\xC0-\xC1r\x87\xF3Ae\xE7\xFFAo\xF6\xFF\xC1r\xE5\xE9\xC0k\xC0i\xC1n0\xF6\xC1lB\xF2A-\xA5\xFFAa\xA7\xFFAb\xA9\xFFAc\xAB\xFFAk\xB0\xFFAn\xB2\xFFAr\xB7\xFFAs\xB9\xFFAt\xE4\xFF\xC0zA-\xE7\xFFAe\xE9\xFF\xC0n\xC0a\xC0y\xC1v\x14\xF1\xC0s\xC0h\xC1d\xCE\xF1\xC0o\xC0m\xC0o\xC1sg\xFA\xC0i\xC0z\xC0o\xC1d\xE8\xF0Ad\xF6\xFFAp\xF9\xFF\xC1s\\\xFA\xC0o\xC0d\xC0.\x80c\xC1c}\xE9\xC1h\xC0\xEFAc\xFE\xFF\xC1lS\xE9Aar\xE9\xC1d;\xF5\xC0r\xC1i \xEB\xC0i\xC0g\xC0m\xC1i\x17\xEA\xC0n\xC0l\xC0i\xC0n\xC1e\xFF\xE9\xC0i\xC1b\xB0\xF1Aa\xEF\xFFAb\xF0\xFFAi\xF6\xE9Am=\xEAAo\xEF\xFFArU\xE9As\xF1\xFF\xC1yT\xEDAa\xD7\xFF\xC0e\xC0oA-\xD7\xFFA.\xEA\xFF\xC0d\x80i\xC0s\xC1c\xC4\xF3Ad\xF3\xFF\xC0p\x80i\xC0g\xC1ra\xEB\xC0o\xC1m\xE8\xE9\xC1o^\xFEAd\xFE\xFF\xC0vAh\x7F\xF2\xC0x\xC0o\xC0d\xC0.\x80m\xC0y\xC11)\xE9\xC1j*\xE9Ad\xFE\xFF\xC0y\x80a\xC0l\xC0t\xC0a\xC0-\x80n\xC1e\xD6\xEB\xC0n\xC0t\xC0a\xC0k\xC0t\xC0eA-\xE0\xFFA.\xED\xFF\xC0a\xC0v\xC0a\xC1tU\xF2\xC0-\x80i\xC0-\x80p\xC0r\xC0o\xC1s\xC0\xECAc\xCA\xFFAo\xE7\xFF\xC0u\x80s\xC0nAo\xF1\xFF\xC0y\xC1bP\xEB\xC0i\xC0r\xC0e\xC0t\xC0r\xC1a\x0C\xE9\xC0r\xC0u\xC1g\xB3\xF5\xC0g\xC0o\xC0g\xC1r\x18\xEEAk\xF7\xFFAl\xF9\xFFAr\xFA\xF0\xC0t\x80p\xC1u\xE2\xF3\xC0h\xC0a\xC0n\xC1s\x04\xE9\xC12?\xEBAb\xFE\xFF\xC1q\\\xEBAa@\xFFAeL\xFFAhP\xFFAi\x8C\xFFAk\xC7\xFFAl\xA7\xE8Am\xCF\xFFAo\xDD\xFFAs\xE5\xFFAt\xEA\xFF\xC1z\x9D\xE8\xC0q\xC0i\xC0w\xC1i\xE8\xEC\xC0.\x80s\xC0a\xC0s\xC0i\xC1s\x11\xE9Ap\xF9\xFF\xC0r\xC0e\xC0z\xC0c\xC1i\xF9\xEE\xC0p\xC0t\xC1e\xA1\xEB\xC0n\xC0f\xC0o\xC0.\x80r\xC0e\xC0f\xC0o\xC0r\xC1m\x93\xF5\xC0bAa\xF0\xFFAi\xF2\xFF\xC0p\xC0a\xC1r\x14\xEA\xC0i\xC0m\xC0a\xC1pS\xEE\xC0d\xC0b\xC0e\xC0r\xC0r\xC1in\xEA\xC1r\x85\xEB\xC0o\xC0wA.\\\xFB\xC1s\xE8\xE9\xC0l\xC0u\xC1b*\xFDAk\xE8\xFFAl\xEB\xFF\xC0nA-\xEF\xFFAd\xEF\xFF\xC0xA-\x1E\xFDAc\xF0\xFF\xC1l\xE6\xEA\xC0m\xC0e\xC0d\xC0c\xC1e\x8E\xFCAa\x95\xE8\xC0e\xC0nA-\xF6\xFF\xC0h\xC0e\xC0a\xC0l\xC0t\xC1h\x06\xEB\xC0s\xC0.\x80t\xC0a\xC0r\xC0e\xC1fU\xE9Am\xEB\xFF\xC0rAk\xF5\xFF\xC0l\x80d\xC0o\xC0f\xC0t\xC0a\xC0n\xC1k\x13\xE9A.\x83\xFFAa\x8D\xFFAd\x10\xF9Ae\xA0\xFFAi\xBF\xFFAo\xE8\xFF\xC0w\xC0w\xC0-\x80v\xC0k\xC0o\xC0n\xC0t\xC0a\xC0k\xC0t\xC0e\xC1-%\xF0\xC0x\xC0m\xC1uZ\xEF\xC1a$\xEC\xC0o\xC1o\xDF\xE8\xC0d\xC0e\xC1x\xF8\xEBA.\x19\xE8Ac\xF5\xFFAh\xF5\xFFAn\xF6\xFF\xC1o2\xE9\xC0a\xC0d\xC0r\xC0a\xC0d\xC0a\xC01\x809\x809\x804\x80.\x80n\xC0a\xC0r\xC0o\xC1d0\xEB\xC1o\xB2\xEBAo\xFE\xFF\xC1u\x8E\xF4\xC0o\xC0v\xC1eR\xE9Aa\xDB\xFFAd\xE3\xFFAe\xED\xED\xC0oAo\xF1\xFF\xC0uAl\xF2\xFF\xC0t\xC1u\xBA\xE8\xC0o\xC1n3\xEE\xC1k\xEF\xF9\xC0nA.\xFD\xFF\xC0r\xC1f1\xFAAo\xFA\xFF\xC0u\x80p\xC0k\xC0i\xC0.\xC1g\xED\xC0l\xC0u\xC0s\xC0h\xC1a\x84\xF2\xC0u\xC0c\xC1h\x1E\xFA\xC0n\xC0e\xC1t9\xE8Ag\xDE\xFFAk\xE7\xFFAs\xEE\xFFAv\xF2\xFF\xC0y\xC0c\xC0e\xC0vA.\xF0\xFF\xC0m\xC0p\xC13b\xE8\xC0o\xC0r\xC0o\xC0v\xC0i\xC0e\xC0i\xC0n\xC1f\xD7\xE7\xC0i\xC1r\x8F\xF2\xC0i\xC1tJ\xF4Af\xFA\xFFAn\xFB\xFF\xC1r\xA5\xEB\xC0u\xC0r\xC0n\xC0a\xC0l\xC0.\xC1l\xF8\xF5\xC1b\xB8\xE9\xC0oAc\x98\xF0Am\xFB\xFF\xC1v;\xEAAa\xC7\xFFAd\xD7\xFFAe\xE5\xFFAh\xE9\xFFAo\xF1\xFFAr^\xE7\xC0t\xC1e\xF8\xEEA0X\xE7A1\x8D\xE7A2\xCB\xE7A3\xD5\xE7A4\xDB\xE7A5\xF0\xE7A6\xF9\xE7A7\xE8A9\x1F\xE8Aa\x98\xE9Ab\x01\xEBAc
+\xECAd\xDB\xECAez\xEDAf$\xEFAgs\xF0Ah	\xF1Ai\x8E\xF1Aj\xC6\xF1Ak\xDA\xF2Al\x88\xF3Am\xE0\xF5An\xAC\xF6Ao}\xF7Ap\xBB\xF8Aq\xD1\xF8Ar\xD3\xF9As\xFD\xFBAt\x1E\xFDAu\x92\xFDAvl\xFEAw\xFD\xFEAx\x15\xFFAyE\xFF\xC1z\xAD\xFF3\x02\x00\x00q\x00\x00\x00\xCE\x02\x00\x00\xE2\x03\x00\x00\xED\x01\x00\x00\xF0\x01\x00\x00t\x00\x00\x00E\x03\x00\x00h\x03\x00\x00\x1B\x02\x00\x00\xCE\x00\x00\x008\x03\x00\x00\xFC\x01\x00\x00\xAD\x03\x00\x007\x02\x00\x00V\x02\x00\x00\xCF\x01\x00\x00z\x01\x00\x00\xE6\x03\x00\x00\xA6\x02\x00\x00\xD6\x02\x00\x00L\x03\x00\x00r\x01\x00\x00\xB8\x02\x00\x00~\x03\x00\x00\xB4\x02\x00\x00\xAC\x01\x00\x00\x9C\x03\x00\x00\x11\x03\x00\x00\xCE\x03\x00\x00R\x01\x00\x006\x02\x00\x00\xC4\x02\x00\x00\xC5\x03\x00\x00\xA3\x00\x00\x006\x01\x00\x00\\\x02\x00\x00&\x04\x00\x00:\x03\x00\x00\x8B\x02\x00\x00\xA3\x00\x00\x00\x8C\x04\x00\x00\xF9\x03\x00\x00B\x02\x00\x00!\x03\x00\x00\x8A\x01\x00\x00\xA8\x03\x00\x00U\x02\x00\x00\xDA\x03\x00\x00d\x00\x00\x00f\x00\x00\x00\xAC\x02\x00\x00g\x01\x00\x00\xAC\x03\x00\x00@\x00\x00\x00\x83\x01\x00\x00|\x03\x00\x00\x1E\x02\x00\x00_\x00\x00\x00\x7F\x00\x00\x00G\x01\x00\x00\x03\x04\x00\x00\xC3\x01\x00\x007\x00\x00\x00\xE3\x03\x00\x00e\x02\x00\x00I\x03\x00\x00\xE3\x00\x00\x00\xDA\x02\x00\x00>\x03\x00\x002\x02\x00\x00\x00\x00\x00j\x02\x00\x00^\x01\x00\x00\xA2\x02\x00\x00k\x04\x00\x00Z\x04\x00\x00\xBE\x03\x00\x008\x02\x00\x00A\x01\x00\x00n\x02\x00\x00P\x01\x00\x00N\x00\x00\x00(\x00\x00\x00\x9D\x02\x00\x00\x10\x04\x00\x00\x8A\x04\x00\x00_\x01\x00\x00\xA9\x01\x00\x00\xEA\x01\x00\x00\x13\x02\x00\x00\x9A\x02\x00\x00\xC9\x01\x00\x00\xC0\x01\x00\x00u\x00\x00\x00\x1C\x02\x00\x00\xD9\x02\x00\x00@\x01\x00\x00F\x03\x00\x00>\x01\x00\x00\xAC\x00\x00\x00\xCD\x02\x00\x00\xF5\x00\x00\x00k\x03\x00\x00\xE7\x03\x00\x00\xBD\x01\x00\x00\x8C\x02\x00\x00\xC7\x01\x00\x00\x15\x01\x00\x00\xF4\x00\x00\x00u\x04\x00\x00h\x02\x00\x00\x00\x00\x00\x00\xC2\x01\x00\x00\x7F\x01\x00\x00b\x02\x00\x00\xBA\x01\x00\x00\x12\x02\x00\x009\x01\x00\x009\x02\x00\x00\xB9\x01\x00\x00V\x03\x00\x00D\x01\x00\x00\x0F\x01\x00\x00M\x04\x00\x00\xEE\x03\x00\x00\xD4\x01\x00\x00[\x02\x00\x00G\x03\x00\x00{\x04\x00\x00\x16\x01\x00\x00c\x00\x00\x00\x92\x03\x00\x00\xF6\x00\x00\x00\x9A\x03\x00\x00\x80\x00\x00\x00 \x01\x00\x00\xEC\x02\x00\x00\x98\x00\x00\x00t\x04\x00\x00\\\x03\x00\x00w\x02\x00\x00'\x03\x00\x00$\x02\x00\x00B\x04\x00\x004\x02\x00\x00\x11\x04\x00\x00W\x02\x00\x00I\x04\x00\x00\xB3\x00\x00\x00s\x03\x00\x00Z\x03\x00\x00\x96\x03\x00\x00\x86\x03\x00\x00\x08\x02\x00\x00J\x03\x00\x00\xE7\x01\x00\x00\x1F\x03\x00\x00d\x00\x00\x00f\x00\x00\x00\x03\x01\x00\x00n\x01\x00\x00M\x01\x00\x00a\x03\x00\x00[\x01\x00\x00\x0E\x01\x00\x00\x03\x01\x00\x00\x93\x01\x00\x00J\x04\x00\x00\x16\x04\x00\x00i\x00\x00\x00\x15\x00\x00\x00Y\x01\x00\x00\xC0\x02\x00\x00\xE5\x01\x00\x00\x12\x04\x00\x00O\x04\x00\x00\x1F\x02\x00\x00\x89\x04\x00\x00\x12\x03\x00\x00O\x01\x00\x00\xBA\x02\x00\x00x\x02\x00\x001\x00\x00\x00y\x03\x00\x00\x19\x01\x00\x00\xBC\x03\x00\x00*\x02\x00\x00\xB5\x03\x00\x003\x04\x00\x00\xE1\x02\x00\x00$\x01\x00\x00-\x03\x00\x00]\x03\x00\x00L\x01\x00\x00/\x00\x00\x00/\x03\x00\x002\x00\x00\x00\x08\x00\x00\x00\xE5\x00\x00\x00\x85\x02\x00\x00@\x04\x00\x00,\x02\x00\x00\x05\x00\x00\x00t\x01\x00\x00\xE9\x02\x00\x00\x1A\x01\x00\x00\x02\x00\x00\x00\x85\x00\x00\x00\x8D\x04\x00\x00p\x01\x00\x00\xDC\x00\x00\x00r\x00\x00\x00\xF1\x00\x00\x00O\x02\x00\x00z\x03\x00\x00\xA6\x01\x00\x00\xED\x02\x00\x00\xD8\x02\x00\x00\x00\x01\x00\x00#\x02\x00\x00L\x00\x00\x00\xBF\x03\x00\x00b\x03\x00\x00/\x01\x00\x00\\\x04\x00\x00\x01\x00\x00\x00\xDF\x03\x00\x00[\x04\x00\x00\xE0\x03\x00\x00\xC8\x02\x00\x00\xDD\x01\x00\x00I\x00\x00\x00\xFD\x03\x00\x00\x8E\x03\x00\x00\x05\x02\x00\x00-\x01\x00\x00'\x04\x00\x00s\x02\x00\x00\x97\x03\x00\x00\xFC\x03\x00\x00\xA9\x02\x00\x00\xB6\x03\x00\x00\xB0\x00\x00\x00\xCD\x01\x00\x00\x14\x03\x00\x00\xF6\x01\x00\x00\xB8\x03\x00\x001\x04\x00\x00\x04\x04\x00\x00Z\x01\x00\x00\x8F\x01\x00\x00\xE4\x03\x00\x00\xEE\x02\x00\x00\x82\x03\x00\x00'\x01\x00\x00\xD8\x01\x00\x00\xF2\x03\x00\x00D\x01\x00\x00f\x03\x00\x00\xEC\x01\x00\x00\x82\x02\x00\x00Y\x03\x00\x00?\x03\x00\x00\x9B\x02\x00\x00\x08\x03\x00\x00\xE1\x00\x00\x00\xC8\x03\x00\x00\xFE\x03\x00\x00\x1F\x04\x00\x00\xD3\x02\x00\x00\xAA\x02\x00\x00Q\x03\x00\x00C\x01\x00\x00z\x00\x00\x00\x18\x04\x00\x00\x03\x02\x00\x00\xE0\x01\x00\x003\x01\x00\x00X\x00\x00\x008\x04\x00\x00\xF3\x00\x00\x00
+\x00\x00\x00<\x01\x00\x00\x01\x03\x00\x00J\x00\x00\x00\xA5\x02\x00\x00X\x02\x00\x007\x04\x00\x00\xD6\x01\x00\x00\xB9\x03\x00\x00\x17\x01\x00\x00\x9D\x01\x00\x00H\x01\x00\x00\xB3\x03\x00\x00\xEC\x03\x00\x00\x05\x01\x00\x00>\x02\x00\x00K\x04\x00\x00}\x01\x00\x00\x12\x01\x00\x00\x14\x02\x00\x00%\x01\x00\x00\x9D\x00\x00\x00\xD8\x03\x00\x00x\x01\x00\x00}\x02\x00\x006\x01\x00\x00\xC5\x03\x00\x00=\x00\x00\x004\x03\x00\x00	\x00\x00\x00O\x01\x00\x00H\x03\x00\x00o\x02\x00\x00\x10\x01\x00\x00T\x00\x00\x00#\x01\x00\x00\x01\x04\x00\x00\xA6\x03\x00\x00\x03\x00\x00\x00\x1E\x01\x00\x00[\x03\x00\x00\x06\x00\x00\x00T\x02\x00\x00\x0F\x04\x00\x00\x18\x03\x00\x00\x94\x03\x00\x00\xC9\x02\x00\x00\x02\x00\x00\x88\x00\x00\x00<\x00\x00\x00\xBC\x02\x00\x005\x04\x00\x00?\x01\x00\x00m\x04\x00\x00\xE0\x02\x00\x00\xA8\x02\x00\x00w\x03\x00\x00\xB6\x01\x00\x00\xCE\x01\x00\x00A\x03\x00\x00\x00\x03\x00\x00/\x04\x00\x009\x00\x00\x00\xD5\x03\x00\x00\xC1\x01\x00\x00\xB6\x00\x00\x00o\x03\x00\x00P\x03\x00\x00o\x00\x00\x00\x99\x02\x00\x00V\x04\x00\x00}\x00\x00\x008\x01\x00\x00\xC1\x02\x00\x00\xF1\x02\x00\x00r\x03\x00\x00\x0E\x00\x00\x00\xD8\x02\x00\x00d\x01\x00\x00\xF5\x01\x00\x00|\x00\x00\x00x\x03\x00\x00\x89\x00\x00\x00\xB1\x03\x00\x00:\x01\x00\x00\xCA\x01\x00\x00S\x03\x00\x00\x11\x00\x00\x00~\x02\x00\x00\x07\x01\x00\x00\\\x03\x00\x00T\x04\x00\x00j\x04\x00\x00\x85\x04\x00\x00\xF4\x02\x00\x00\x86\x04\x00\x00^\x02\x00\x00a\x01\x00\x007\x01\x00\x00\xD9\x00\x00\x00\x91\x01\x00\x00p\x04\x00\x00F\x00\x00\x00\x03\x00\x00\x88\x02\x00\x00\x86\x00\x00\x00\xAB\x03\x00\x00Z\x03\x00\x00\xC1\x03\x00\x00}\x03\x00\x00\xF9\x01\x00\x00\xA0\x03\x00\x00\xB4\x00\x00\x00'\x02\x00\x00<\x03\x00\x00{\x03\x00\x00\xAB\x01\x00\x00\x11\x02\x00\x00\xE4\x02\x00\x00\xAB\x02\x00\x00$\x03\x00\x00E\x00\x00\x00\x9C\x01\x00\x00\x9C\x02\x00\x00\x08\x01\x00\x00\xCB\x00\x00\x00^\x04\x00\x00\x10\x02\x00\x00\x89\x03\x00\x00W\x00\x00\x00\xA1\x01\x00\x00:\x04\x00\x00\xF8\x03\x00\x00\x13\x03\x00\x00j\x00\x00\x00\x16\x02\x00\x00Q\x02\x00\x00\x84\x03\x00\x00C\x02\x00\x00,\x01\x00\x00O\x03\x00\x00\x10\x00\x00\x00\xFF\x03\x00\x00\xD4\x03\x00\x00|\x01\x00\x00\xC9\x00\x00\x00s\x00\x00\x00*\x03\x00\x00`\x03\x00\x00\x87\x03\x00\x00\xA4\x01\x00\x00K\x01\x00\x00\x99\x03\x00\x00\x8B\x01\x00\x00Z\x02\x00\x00\xBC\x00\x00\x00o\x04\x00\x00\xD7\x01\x00\x00O\x00\x00\x00V\x04\x00\x00\x04\x01\x00\x00\xC4\x00\x00\x00\xD0\x00\x00\x00\xC3\x00\x00\x00:\x01\x00\x00\x8F\x00\x00\x00\xDF\x01\x00\x00\x80\x02\x00\x00@\x02\x00\x00\xD1\x03\x00\x006\x03\x00\x00q\x01\x00\x00\xF3\x02\x00\x00\x1D\x00\x00\x00\xDF\x01\x00\x00\x07\x03\x00\x00\xDC\x01\x00\x00\x14\x00\x00\x00C\x04\x00\x00r\x04\x00\x00\xA4\x02\x00\x00r\x02\x00\x00\xF5\x02\x00\x00u\x00\x00\x00\xBE\x00\x00\x00-\x00\x00\x00\xA5\x01\x00\x002\x03\x00\x00\x9F\x00\x00\x00\xA4\x00\x00\x00\x1B\x04\x00\x00\xC1\x03\x00\x00\xB5\x02\x00\x00\x1F\x02\x00\x00\xC4\x01\x00\x00\x08\x00\x00\x00\x9B\x03\x00\x00\x9E\x02\x00\x00
+\x00\x00\x00c\x00\x00\x00%\x00\x00\x00\x0B\x00\x00\x00\x1E\x00\x00\x00`\x00\x00\x00&\x00\x00\x00\x0C\x03\x00\x00N\x01\x00\x00\xA0\x00\x00\x00+\x01\x00\x00H\x04\x00\x00T\x01\x00\x00)\x04\x00\x00T\x03\x00\x00\xF1\x01\x00\x00\xB4\x01\x00\x00\xB5\x01\x00\x00\x08\x04\x00\x00s\x01\x00\x00\xB1\x01\x00\x00\xB7\x00\x00\x00\x96\x02\x00\x00\xD1\x01\x00\x00\xCC\x03\x00\x00+\x03\x00\x00\xB3\x03\x00\x00"\x04\x00\x00\x1E\x03\x00\x00y\x02\x00\x00\xCA\x01\x00\x00\x08\x01\x00\x00\x80\x04\x00\x00h\x00\x00\x00\x98\x01\x00\x00\x95\x01\x00\x00N\x00\x00\x00v\x01\x00\x00\xF6\x03\x00\x00\x9F\x01\x00\x00X\x04\x00\x00A\x02\x00\x00\x97\x00\x00\x00\xC1\x02\x00\x00p\x00\x00\x00\xE1\x01\x00\x00S\x01\x00\x00\xAE\x03\x00\x00\xB7\x02\x00\x00b\x04\x00\x00\xFD\x00\x00\x00\x1C\x00\x00\x00\xA3\x03\x00\x00\x18\x01\x00\x00 \x02\x00\x00\xCC\x02\x00\x00Q\x00\x00\x00\xFE\x02\x00\x00E\x02\x00\x00\xC2\x00\x00\x00o\x01\x00\x00\x82\x01\x00\x00\x83\x03\x00\x00\x90\x03\x00\x00\x0E\x02\x00\x00\x90\x01\x00\x00#\x03\x00\x00
+\x03\x00\x00f\x01\x00\x00\xDB\x03\x00\x00\x84\x02\x00\x00I\x00\x00\x003\x04\x00\x00\x8D\x01\x00\x005\x00\x00\x00\xA8\x01\x00\x00\xAD\x01\x00\x00E\x01\x00\x00"\x03\x00\x00\xE6\x02\x00\x00\xFE\x00\x00\x00\xD7\x03\x00\x00\x8E\x02\x00\x00\xB8\x00\x00\x00a\x02\x00\x00.\x01\x00\x00\x11\x01\x00\x00l\x01\x00\x00\x96\x00\x00\x00c\x01\x00\x00k\x01\x00\x00\xAF\x00\x00\x00\x87\x02\x00\x001\x01\x00\x00\x0F\x00\x00\x00X\x01\x00\x00\x12\x00\x00\x004\x01\x00\x00\xAE\x02\x00\x00\x8A\x02\x00\x00A\x00\x00\x00\xA3\x01\x00\x00I\x03\x00\x00\x85\x03\x00\x00<\x02\x00\x00\x0B\x03\x00\x00\xC9\x03\x00\x00\xBB\x00\x00\x00\x91\x03\x00\x00]\x00\x00\x00\xDF\x02\x00\x00e\x00\x00\x00w\x00\x00\x00\x1F\x00\x00\x00\x02\x01\x00\x00\x02\x02\x00\x00\x8E\x00\x00\x00{\x02\x00\x00\xEB\x01\x00\x00\xE6\x01\x00\x00\x88\x03\x00\x00\x92\x00\x00\x00K\x03\x00\x00\x02\x04\x00\x00L\x02\x00\x00\xBE\x02\x00\x00\x8E\x01\x00\x00\x11\x03\x00\x00V\x01\x00\x00)\x01\x00\x006\x04\x00\x00\x1B\x03\x00\x00\x94\x01\x00\x00\\\x01\x00\x00#\x04\x00\x00\xB1\x00\x00\x00\xB9\x02\x00\x00\xBD\x02\x00\x00\x95\x02\x00\x00X\x03\x00\x00
+\x03\x00\x00\xA4\x02\x00\x00\xF0\x00\x00\x00\x9B\x01\x00\x00$\x04\x00\x00[\x00\x00\x00\x80\x01\x00\x00
+\x02\x00\x00\x9F\x00\x00\x00\xA0\x01\x00\x00\x05\x03\x00\x00i\x01\x00\x00\x18\x00\x00\x00\xE1\x03\x00\x00\xEC\x02\x00\x00\x81\x04\x00\x00\xC6\x00\x00\x00?\x04\x00\x00C\x03\x00\x00\x8C\x00\x00\x00Q\x01\x00\x00\x13\x01\x00\x00\xFF\x03\x00\x00\xDF\x00\x00\x00\x11\x00\x00\x008\x04\x00\x00P\x02\x00\x00?\x00\x00\x00\x1A\x02\x00\x00\x91\x00\x00\x00\xD2\x01\x00\x00\xD1\x00\x00\x00\xDA\x01\x00\x00\x86\x01\x00\x00\xD7\x00\x00\x00^\x03\x00\x00@\x02\x00\x00\x12\x01\x00\x00\xE7\x00\x00\x00 \x03\x00\x00\x9E\x00\x00\x00\x9A\x01\x00\x00\x87\x01\x00\x00U\x04\x00\x00\xA1\x03\x00\x00A\x00\x00\x000\x03\x00\x00D\x00\x00\x00:\x04\x00\x00\xB9\x00\x00\x00)\x02\x00\x000\x00\x00\x00\x1B\x00\x00\x00\xD5\x01\x00\x00\xD7\x03\x00\x00\x01\x01\x00\x00\x1E\x04\x00\x00L\x04\x00\x00\x98\x02\x00\x00\xC7\x02\x00\x00\x95\x03\x00\x00\xF7\x00\x00\x00:\x00\x00\x00]\x04\x00\x00\x84\x00\x00\x00\x17\x04\x00\x00\x81\x01\x00\x00Q\x01\x00\x00\xCF\x03\x00\x00j\x03\x00\x00\x8D\x03\x00\x00\xBB\x03\x00\x00\xE8\x03\x00\x00\xB7\x03\x00\x00i\x03\x00\x00H\x02\x00\x00\xB4\x02\x00\x00\xE8\x02\x00\x00\xED\x00\x00\x00\x15\x03\x00\x00}\x04\x00\x00\x1D\x01\x00\x00\x85\x01\x00\x00\x92\x01\x00\x00\xD6\x03\x00\x00\xE9\x01\x00\x00\x8A\x00\x00\x00\xEA\x00\x00\x00\xDC\x03\x00\x00\x82\x04\x00\x001\x03\x00\x00\x0F\x03\x00\x00R\x00\x00\x00f\x02\x00\x00y\x01\x00\x00Y\x00\x00\x00G\x00\x00\x00U\x03\x00\x00z\x01\x00\x00\xEC\x00\x00\x00\xB5\x00\x00\x00\x17\x02\x00\x00\xFC\x00\x00\x00'\x04\x00\x00K\x00\x00\x00\x7F\x03\x00\x00y\x04\x00\x005\x03\x00\x00V\x00\x00\x00\x8E\x03\x00\x00%\x03\x00\x00\xEA\x02\x00\x00B\x00\x00\x00p\x03\x00\x007\x04\x00\x00\xE4\x01\x00\x00\x1A\x04\x00\x00\x03\x03\x00\x00\x83\x04\x00\x00\x01\x00\x00U\x01\x00\x00\xAB\x01\x00\x00S\x02\x00\x00e\x01\x00\x00=\x03\x00\x00\x95\x00\x00\x00;\x02\x00\x00	\x01\x00\x00\xF2\x00\x00\x00g\x00\x00\x00\x97\x02\x00\x00\x8D\x00\x00\x00\xD0\x03\x00\x00\x9F\x02\x00\x00\x10\x03\x00\x00\xD3\x01\x00\x00*\x04\x00\x00\xE6\x00\x00\x00h\x04\x00\x00{\x00\x00\x00\\\x02\x00\x00\xC6\x02\x00\x00\x85\x00\x00\x00\x90\x00\x00\x00\xC2\x03\x00\x00\xF0\x03\x00\x00	\x03\x00\x00\xC7\x03\x00\x00 \x04\x00\x00\x0B\x01\x00\x00\x1A\x03\x00\x00\xC7\x00\x00\x00\x99\x01\x00\x00f\x04\x00\x00B\x01\x00\x00\x9A\x03\x00\x00\\\x04\x00\x00\xCA\x02\x00\x00P\x02\x00\x00\x86\x02\x00\x00\xD3\x03\x00\x00\x9C\x00\x00\x00\xB3\x01\x00\x00q\x03\x00\x00\xDD\x02\x00\x00I\x02\x00\x00\xC0\x03\x00\x00\xD2\x00\x00\x00&\x03\x00\x00\xB7\x00\x00\x00\x85\x04\x00\x00\x8C\x01\x00\x00\xFF\x00\x00\x00i\x04\x00\x00\x02\x03\x00\x00\x93\x00\x00\x00p\x02\x00\x00R\x01\x00\x00\x94\x02\x00\x00/\x02\x00\x00\xE2\x00\x00\x00H\x00\x00\x00;\x03\x00\x00D\x02\x00\x00B\x03\x00\x00\xDA\x00\x00\x00\xC2\x02\x00\x00~\x00\x00\x00\x05\x04\x00\x00\xF3\x01\x00\x00\x82\x00\x00\x00\xA2\x00\x00\x00\xA1\x02\x00\x00\x84\x04\x00\x00\x9E\x00\x00\x00\x81\x02\x00\x00\xEB\x03\x00\x00\x0C\x04\x00\x00\x8F\x03\x00\x00F\x02\x00\x00	\x02\x00\x00\xCD\x00\x00\x00w\x01\x00\x00\xB4\x03\x00\x00q\x02\x00\x00\x9A\x00\x00\x00>\x00\x00\x00]\x01\x00\x00\xD6\x00\x00\x00D\x03\x00\x00\xCA\x00\x00\x00\x04\x00\x00\x8A\x00\x00\x00\x8E\x04\x00\x00\xA0\x02\x00\x00\xF0\x02\x00\x00\x88\x01\x00\x00m\x02\x00\x00A\x04\x00\x00\xD6\x02\x00\x00\xAF\x01\x00\x00\x18\x02\x00\x00{\x01\x00\x00z\x04\x00\x00\xC9\x00\x00\x00\xF4\x03\x00\x00(\x04\x00\x006\x04\x00\x00X\x01\x00\x00\xB1\x02\x00\x00\xAF\x02\x00\x00P\x00\x00\x00\xC8\x00\x00\x00\xC6\x02\x00\x00\xA2\x03\x00\x00\xBB\x01\x00\x00\x1B\x01\x00\x00\xE8\x01\x00\x00\xC6\x03\x00\x00>\x03\x00\x00\xBA\x00\x00\x00,\x00\x00\x00\x7F\x02\x00\x00\x0E\x03\x00\x00\xD5\x02\x00\x00\xCB\x02\x00\x00\xEC\x03\x00\x00\xC5\x02\x00\x00S\x04\x00\x00\x8D\x00\x00\x00*\x00\x00\x00\x14\x01\x00\x00g\x03\x00\x00\xF8\x00\x00\x00\xA2\x01\x00\x00t\x02\x00\x00\x97\x01\x00\x00\x8F\x02\x00\x00\x93\x02\x00\x00\xCD\x03\x00\x00\xEF\x03\x00\x00\xD5\x00\x00\x00M\x02\x00\x00)\x00\x00\x00\x89\x01\x00\x00\x19\x02\x00\x00-\x02\x00\x00k\x00\x00\x00\x0F\x02\x00\x00$\x00\x00\x00\x84\x00\x00\x00\x08\x02\x00\x00\x90\x02\x00\x00\xA4\x03\x00\x00\xE2\x02\x00\x00\x0E\x03\x00\x00\xEC\x00\x00\x00\x8F\x04\x00\x00\xAD\x00\x00\x00\xD2\x03\x00\x00\xA7\x02\x00\x00\xFA\x02\x00\x00\xCF\x01\x00\x00\x16\x03\x00\x00\x01\x02\x00\x00d\x02\x00\x00d\x03\x00\x00w\x04\x00\x00\xB0\x02\x00\x00M\x02\x00\x00\xBB\x02\x00\x00\xD4\x00\x00\x00\xAE\x00\x00\x00b\x01\x00\x00\xD0\x02\x00\x00\x9B\x01\x00\x00M\x04\x00\x00\x99\x00\x00\x00\xF7\x01\x00\x00F\x01\x00\x00\x9E\x03\x00\x00"\x00\x00\x00R\x02\x00\x00\xF8\x01\x00\x00\x10\x02\x00\x00\xD8\x00\x00\x00c\x02\x00\x00\xDE\x02\x00\x00\x8B\x03\x00\x00\xF7\x02\x00\x00\xF9\x00\x00\x00\xC5\x00\x00\x003\x03\x00\x00	\x03\x00\x00v\x02\x00\x00l\x03\x00\x00_\x04\x00\x00`\x02\x00\x00\xC3\x03\x00\x001\x02\x00\x00m\x04\x00\x00\xC8\x01\x00\x00\xDB\x00\x00\x00\xE2\x01\x00\x00|\x02\x00\x00\x13\x00\x00\x00\xEB\x02\x00\x007\x03\x00\x00u\x03\x00\x00\x1D\x02\x00\x00\xE5\x02\x00\x00\xA1\x00\x00\x00\x06\x03\x00\x00\xFD\x02\x00\x00\xA3\x00\x00\x00\xE8\x00\x00\x00\x17\x03\x00\x00\x82\x03\x00\x00i\x00\x00\x00m\x00\x00\x00\xED\x03\x00\x00\xEE\x00\x00\x004\x00\x00\x00F\x04\x00\x00\x0C\x01\x00\x00\xF1\x02\x00\x00\xDA\x00\x00\x00#\x00\x00\x00D\x04\x00\x00\x19\x00\x00\x00\x1E\x01\x00\x00\x06\x00\x00\x00D\x02\x00\x00\xE8\x03\x00\x00\xE4\x00\x00\x009\x03\x00\x00d\x04\x00\x00\xBF\x00\x00\x00
+\x01\x00\x00n\x03\x00\x00\x04\x00\x00\x00a\x04\x00\x00\x1D\x04\x00\x00u\x02\x00\x002\x01\x00\x00\xAF\x03\x00\x008\x02\x00\x00!\x00\x00\x00\x1C\x00\x00\x00l\x02\x00\x00\x98\x03\x00\x00@\x03\x00\x00\x8D\x02\x00\x00\x1D\x00\x00\x00W\x03\x00\x00\xFA\x02\x00\x00\xF2\x02\x00\x00\x9E\x02\x00\x00\xFB\x03\x00\x00\xCB\x03\x00\x00
+$$$$$$ Response Body For Transaction With Id 437 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/computers
+Form: name= action=/computers
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to 'TLS1.2'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 437 ****** (Location Flag : tFlagInsertEnd, Location ID : 437)
+	web_url("suggestions.ru-RU",
+		"URL=https://ieonline.microsoft.com/iedomainsuggestions/ie11/suggestions.ru-RU",
+		"Resource=1",
+		"RecContentType=application/octet-stream",
+		"Referer=",
+		"Snapshot=t6.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 437 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 437)
+	web_add_header("UA-CPU",
+		"AMD64");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 447 ******
+GET /computers?f=ASUS HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://computer-database.gatling.io/computers
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: computer-database.gatling.io
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 447 Ended $$$$$$
+
+****** Response Header For Transaction With Id 447 ******
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Wed, 05 Feb 2020 13:57:01 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 4362
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+$$$$$$ Response Header For Transaction With Id 447 Ended $$$$$$
+
+****** Response Body For Transaction With Id 447 ******
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    </head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>4 computers found</h1>
+
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="ASUS" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2&amp;f=ASUS">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3&amp;f=ASUS">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4&amp;f=ASUS">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5&amp;f=ASUS">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/525">ASUS Eee PC 1005PE</a></td>
+                            <td>
+                                01 Jan 2010
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                ASUS
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/302">ASUS Eee PC 701</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/439">ASUS Eee PC 900</a></td>
+                            <td>
+                                01 May 2008
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                ASUS
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/301">ASUS Eee PC 901</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                ASUS
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev disabled">
+                        <a>&larr; Previous</a>
+                    </li>
+                
+                <li class="current">
+                    <a>Displaying 1 to 4 of 4</a>
+                </li>
+                
+                    <li class="next disabled">
+                        <a>Next &rarr;</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            
+$$$$$$ Response Body For Transaction With Id 447 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/computers
+Form: name= action=/computers
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 447 ****** (Location Flag : tFlagInsertEnd, Location ID : 447)
+	web_submit_data("computers_3",
+		"Action=http://computer-database.gatling.io/computers",
+		"Method=GET",
+		"EncType=",
+		"RecContentType=text/html",
+		"Referer=http://computer-database.gatling.io/computers",
+		"Snapshot=t7.inf",
+		"Mode=HTTP",
+		ITEMDATA,
+		"Name=f", "Value=ASUS", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 447 Ended $$$$$$
+
+****** Request Header For Transaction With Id 459 ******
+GET /computers?f=IBM HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://computer-database.gatling.io/computers?f=ASUS
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: computer-database.gatling.io
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 459 Ended $$$$$$
+
+****** Response Header For Transaction With Id 459 ******
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Wed, 05 Feb 2020 13:57:35 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 7242
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+$$$$$$ Response Header For Transaction With Id 459 Ended $$$$$$
+
+****** Response Body For Transaction With Id 459 ******
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    </head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>25 computers found</h1>
+
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="IBM" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2&amp;f=IBM">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3&amp;f=IBM">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4&amp;f=IBM">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5&amp;f=IBM">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/310">IBM 1401</a></td>
+                            <td>
+                                01 Jan 1959
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/506">IBM 305</a></td>
+                            <td>
+                                01 Jan 1956
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/351">IBM 3270</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/499">IBM 5100</a></td>
+                            <td>
+                                01 Jan 1975
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/107">IBM 650</a></td>
+                            <td>
+                                01 Jan 1953
+                            </td>
+                            <td>
+                                01 Jan 1962
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/498">IBM 701</a></td>
+                            <td>
+                                01 Jan 1952
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/303">IBM 7030</a></td>
+                            <td>
+                                01 Jan 1961
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/306">IBM 7090</a></td>
+                            <td>
+                                01 Jan 1959
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/309">IBM 801</a></td>
+                            <td>
+                                01 Jan 1980
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/163">IBM AP-101</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev disabled">
+                        <a>&larr; Previous</a>
+                    </li>
+                
+                <li class="current">
+                    <a>Displaying 1 to 10 of 25</a>
+                </li>
+                
+                    <li class="next">
+                        <a href="/computers?p=1&amp;f=IBM">Next &rarr;</a>
+                    </li> 
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            
+$$$$$$ Response Body For Transaction With Id 459 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/computers?f=ASUS
+Form: name= action=/computers
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 459 ****** (Location Flag : tFlagInsertEnd, Location ID : 459)
+	web_submit_data("computers_4",
+		"Action=http://computer-database.gatling.io/computers",
+		"Method=GET",
+		"EncType=",
+		"RecContentType=text/html",
+		"Referer=http://computer-database.gatling.io/computers?f=ASUS",
+		"Snapshot=t8.inf",
+		"Mode=HTTP",
+		ITEMDATA,
+		"Name=f", "Value=IBM", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 459 Ended $$$$$$
+
+****** Request Header For Transaction With Id 467 ******
+GET /computers?p=1&f=IBM HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://computer-database.gatling.io/computers?f=IBM
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: computer-database.gatling.io
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 467 Ended $$$$$$
+
+****** Response Header For Transaction With Id 467 ******
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Wed, 05 Feb 2020 13:57:42 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 7288
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+$$$$$$ Response Header For Transaction With Id 467 Ended $$$$$$
+
+****** Response Body For Transaction With Id 467 ******
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    </head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>15 computers found</h1>
+
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="IBM" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2&amp;f=IBM">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3&amp;f=IBM">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4&amp;f=IBM">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5&amp;f=IBM">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/165">IBM AP-101B</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/166">IBM AP-101S</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/409">IBM BladeCenter</a></td>
+                            <td>
+                                01 Jan 2002
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/502">IBM CPC</a></td>
+                            <td>
+                                01 Jan 1949
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/67">IBM PC</a></td>
+                            <td>
+                                12 Aug 1981
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/361">IBM Power Systems</a></td>
+                            <td>
+                                01 Jan 2008
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/307">IBM RT</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/467">IBM Sequoia</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/356">IBM System Cluster 1350</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/231">IBM System i</a></td>
+                            <td>
+                                01 Jan 2006
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev">
+                        <a href="/computers?f=IBM">&larr; Previous</a>
+                    </li> 
+                
+                <li class="current">
+                    <a>Displaying 11 to 20 of 15</a>
+                </li>
+                
+                    <li class="next disabled">
+                        <a>Next &rarr;</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            
+$$$$$$ Response Body For Transaction With Id 467 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/computers?f=IBM
+Form: name= action=/computers
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 467 ****** (Location Flag : tFlagInsertEnd, Location ID : 467)
+	web_url("Next &rarr;",
+		"URL=http://computer-database.gatling.io/computers?p=1&f=IBM",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://computer-database.gatling.io/computers?f=IBM",
+		"Snapshot=t9.inf",
+		"Mode=HTTP",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 467 Ended $$$$$$
+

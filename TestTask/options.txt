@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\AlexandrSunLight\Documents\VuGen\Scripts\TestTask
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\alexandrsunlight\documents\vugen\scripts\testtask\\logfile.log
+c:\users\alexandrsunlight\documents\vugen\scripts\testtask\\combined_TestTask.c
+c:\users\alexandrsunlight\documents\vugen\scripts\testtask\\pre_cci.c

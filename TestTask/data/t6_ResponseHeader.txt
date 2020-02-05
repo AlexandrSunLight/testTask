@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=3600
+Content-Length: 16808
+Content-Type: application/octet-stream
+ETag: XwwzJtZj0Kv2uZZFDICZuEmVG4A=
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: SRCHD=AF=NOFORM; domain=.microsoft.com; expires=Sat, 05-Feb-2022 13:58:40 GMT; path=/
+Set-Cookie: SRCHUID=V=2&GUID=423CC2F10F7D4DEAB994C258B57BA93E&dmnchg=1; domain=.microsoft.com; expires=Sat, 05-Feb-2022 13:58:40 GMT; path=/
+Set-Cookie: SRCHUSR=DOB=20200205; domain=.microsoft.com; expires=Sat, 05-Feb-2022 13:58:40 GMT; path=/
+Set-Cookie: _SS=SID=34EEBC1EAC3365600DB2B279AD1B64B4; domain=.microsoft.com; path=/
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-MSEdge-Ref: Ref A: A864021D33454DD0B1EB033D7E3ADC24 Ref B: STOEDGE1017 Ref C: 2020-02-05T13:58:40Z
+Date: Wed, 05 Feb 2020 13:58:39 GMT
+

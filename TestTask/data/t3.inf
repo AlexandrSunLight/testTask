@@ -1,0 +1,11 @@
+[t3]
+FileName1=t3_main.css
+URL1=http://computer-database.gatling.io/assets/stylesheets/main.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

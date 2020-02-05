@@ -1,0 +1,178 @@
+Failed to get information of process Id: 0
+Failed to get information of process Id: 4
+Failed to get information of process Id: 120
+Failed to get information of process Id: 432
+Failed to get information of process Id: 640
+Failed to get information of process Id: 780
+Failed to get information of process Id: 796
+Failed to get information of process Id: 888
+Failed to get information of process Id: 932
+Failed to get information of process Id: 940
+Failed to get information of process Id: 480
+Failed to get information of process Id: 644
+Failed to get information of process Id: 800
+Failed to get information of process Id: 1052
+Failed to get information of process Id: 1136
+Failed to get information of process Id: 1248
+Failed to get information of process Id: 1268
+Failed to get information of process Id: 1276
+Failed to get information of process Id: 1284
+Failed to get information of process Id: 1608
+Failed to get information of process Id: 1660
+Failed to get information of process Id: 1764
+Failed to get information of process Id: 1920
+Failed to get information of process Id: 1932
+Failed to get information of process Id: 2128
+Failed to get information of process Id: 2200
+Failed to get information of process Id: 2308
+Failed to get information of process Id: 2316
+Failed to get information of process Id: 2476
+Failed to get information of process Id: 2588
+Failed to get information of process Id: 2676
+Failed to get information of process Id: 2736
+Failed to get information of process Id: 3004
+Failed to get information of process Id: 3016
+Failed to get information of process Id: 3028
+Failed to get information of process Id: 3040
+Failed to get information of process Id: 3048
+Failed to get information of process Id: 3060
+Failed to get information of process Id: 1908
+Failed to get information of process Id: 2056
+Failed to get information of process Id: 3148
+Failed to get information of process Id: 3244
+Failed to get information of process Id: 4088
+Failed to get information of process Id: 4308
+Failed to get information of process Id: 4276
+Failed to get information of process Id: 4720
+Failed to get information of process Id: 4836
+Failed to get information of process Id: 4440
+Failed to get information of process Id: 5164
+Failed to get information of process Id: 5548
+Failed to get information of process Id: 5764
+Failed to get information of process Id: 5780
+Failed to get information of process Id: 4432
+Failed to get information of process Id: 5460
+Failed to get information of process Id: 5608
+Failed to get information of process Id: 5672
+Failed to get information of process Id: 5640
+Failed to get information of process Id: 5952
+Failed to get information of process Id: 2196
+Failed to get information of process Id: 6460
+Failed to get information of process Id: 6572
+Failed to get information of process Id: 7124
+Failed to get information of process Id: 7928
+Failed to get information of process Id: 7796
+Failed to get information of process Id: 8204
+PROCESS 0x2088      magentproc.exe
+Failed to get information of process Id: 9428
+Failed to get information of process Id: 9764
+Failed to get information of process Id: 10148
+Failed to get information of process Id: 8936
+PROCESS 0x2460      steam.exe
+Failed to get information of process Id: 8760
+PROCESS 0x22b8      galaxyclient.exe
+Failed to get information of process Id: 5528
+PROCESS 0x1b4c      galaxyclient helper.exe
+Failed to get information of process Id: 7568
+Failed to get information of process Id: 7628
+Failed to get information of process Id: 8680
+Failed to get information of process Id: 9068
+PROCESS 0x27f4      miphonehelper.exe
+PROCESS 0x11e8      jusched.exe
+PROCESS 0x858       brlogrx.exe
+PROCESS 0x269c      yowindow.exe
+PROCESS 0x91c       brctrlcntr.exe
+PROCESS 0x2110      brstmonw.exe
+Failed to get information of process Id: 9196
+PROCESS 0x282c      softwareupdatenotificationservice.exe
+PROCESS 0x2844      galaxycommunication.exe
+PROCESS 0x2a7c      galaxyclient helper.exe
+Failed to get information of process Id: 11076
+PROCESS 0x2bec      brccuxsys.exe
+Failed to get information of process Id: 1324
+PROCESS 0x2418      python.exe
+Failed to get information of process Id: 11276
+Failed to get information of process Id: 11120
+Failed to get information of process Id: 11168
+Failed to get information of process Id: 6208
+Failed to get information of process Id: 5212
+Failed to get information of process Id: 8512
+PROCESS 0x9b8       jucheck.exe
+Failed to get information of process Id: 3916
+Failed to get information of process Id: 6512
+Failed to get information of process Id: 7932
+PROCESS 0x1aa8      telegram.exe
+Failed to get information of process Id: 13324
+Failed to get information of process Id: 12496
+Failed to get information of process Id: 496
+Failed to get information of process Id: 14496
+Failed to get information of process Id: 7468
+Failed to get information of process Id: 13160
+Failed to get information of process Id: 5644
+Failed to get information of process Id: 17032
+Failed to get information of process Id: 10408
+Failed to get information of process Id: 13484
+PROCESS 0x1198      swriter.exe
+PROCESS 0x42b0      soffice.exe
+PROCESS 0x3d54      soffice.bin
+Failed to get information of process Id: 14352
+Failed to get information of process Id: 17628
+Failed to get information of process Id: 15116
+PROCESS 0x33b0      notepad++.exe
+Failed to get information of process Id: 6468
+Failed to get information of process Id: 6248
+Failed to get information of process Id: 7612
+Failed to get information of process Id: 18228
+Failed to get information of process Id: 13852
+Failed to get information of process Id: 8496
+Failed to get information of process Id: 11772
+Failed to get information of process Id: 19084
+Failed to get information of process Id: 13340
+Failed to get information of process Id: 16704
+Failed to get information of process Id: 3848
+Failed to get information of process Id: 18184
+Failed to get information of process Id: 11016
+Failed to get information of process Id: 7904
+Failed to get information of process Id: 9020
+Failed to get information of process Id: 17932
+Failed to get information of process Id: 19432
+Failed to get information of process Id: 12604
+Failed to get information of process Id: 9112
+Failed to get information of process Id: 9608
+PROCESS 0x4a68      mailspring.exe
+PROCESS 0x19f8      mailspring.exe
+PROCESS 0x27c4      mailspring.exe
+PROCESS 0x46ac      mailspring.exe
+PROCESS 0x2a20      mailspring.exe
+PROCESS 0x4a60      mailsync.exe
+PROCESS 0x3aa8      mailsync.exe
+Failed to get information of process Id: 11768
+Failed to get information of process Id: 13912
+Failed to get information of process Id: 4336
+Failed to get information of process Id: 12812
+Failed to get information of process Id: 17356
+Failed to get information of process Id: 15140
+Failed to get information of process Id: 6096
+Failed to get information of process Id: 17620
+Failed to get information of process Id: 7360
+Failed to get information of process Id: 17460
+Failed to get information of process Id: 14628
+Failed to get information of process Id: 5092
+Failed to get information of process Id: 8448
+Failed to get information of process Id: 18792
+Failed to get information of process Id: 7164
+Failed to get information of process Id: 3924
+Failed to get information of process Id: 16568
+Failed to get information of process Id: 3980
+Failed to get information of process Id: 14612
+PROCESS 0x2170      vugen.exe
+Failed to get information of process Id: 17044
+Failed to get information of process Id: 13404
+Failed to get information of process Id: 1308
+Failed to get information of process Id: 11364
+Failed to get information of process Id: 17808
+Failed to get information of process Id: 8508
+Failed to get information of process Id: 18308
+Failed to get information of process Id: 18360
+Failed to get information of process Id: 4408
+Failed to get information of process Id: 12416

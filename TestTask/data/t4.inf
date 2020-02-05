@@ -1,0 +1,11 @@
+[t4]
+FileName1=t4.html
+URL1=http://computer-database.gatling.io/computers/new
+Total=1
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_4.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

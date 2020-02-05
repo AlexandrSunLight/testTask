@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Wed, 05 Feb 2020 13:54:39 GMT
+Content-Type: text/css; charset=utf-8
+Content-Length: 824
+Connection: keep-alive
+Keep-Alive: timeout=5
+Last-Modified: Wed, 22 Jun 2016 09:08:51 GMT
+Etag: "fc2d7ddeb2f30f33286c1e790dfe67b8241745f9"
+Cache-Control: max-age=3600
+

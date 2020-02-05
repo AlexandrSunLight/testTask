@@ -1,0 +1,9 @@
+GET /computers?p=1&f=IBM HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://computer-database.gatling.io/computers?f=IBM
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: computer-database.gatling.io
+Connection: Keep-Alive
+

@@ -1,0 +1,11 @@
+[t9]
+FileName1=t9.html
+URL1=http://computer-database.gatling.io/computers?p=1&f=IBM
+Total=1
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t9_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_9.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
