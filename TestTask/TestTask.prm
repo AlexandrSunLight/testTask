@@ -16,7 +16,7 @@ ParamName="CurrentDate"
 Type="Time"
 WorkingDaysOn="0"
 [parameter:FilePath]
-CurrentValue="C:\Users\AlexandrSunLight\Documents\VuGen\Scripts\TestTask\FoundData.csv"
+CurrentValue="C:\\Users\\AlexandrSunLight\\Documents\\VuGen\\Scripts\\testTask\\FoundData.csv"
 IsEncrypt="NO"
 IsServer="NO"
 OriginalValue=""

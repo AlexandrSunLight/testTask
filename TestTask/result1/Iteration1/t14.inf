@@ -1,0 +1,13 @@
+[t14]
+SnapshotXmlFile=snapshot_14.xml
+ContentType=text/html
+StepName=Url: Add a new computer
+Total=1
+FileName1=t14.html
+RequestHeaderFile=t14_RequestHeader.txt
+ResponseHeaderFile=t14_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Add a new computer
+RequestBodyFile=t14_RequestBody.txt
+RawStepStartTime=1580946679389
+URL1=http://computer-database.gatling.io/computers/new

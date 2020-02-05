@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Wed, 05 Feb 2020 23:48:21 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 7386
+Connection: keep-alive
+Keep-Alive: timeout=5
+Set-Cookie: PLAY_FLASH=; Expires=Tue, 04 Feb 2020 23:48:22 GMT; Path=/; HTTPOnly
+

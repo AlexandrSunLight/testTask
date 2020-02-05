@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC03_CSVWriting"
+Order="UC03_CSVWriting__*delimiter*__UC01_ComputerAdding__*delimiter*__UC02_QuantityFinding"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -59,3 +59,5 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 UC03_CSVWriting=
+UC01_ComputerAdding=
+UC02_QuantityFinding=

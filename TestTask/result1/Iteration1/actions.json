@@ -4,17 +4,159 @@
         "steps": [
             {
                 "stepId": "STEP1",
-                "stepName": "Url: computers",
+                "stepName": "Url: Computers",
                 "infFile": "t1.inf",
-                "time": 1580933753436
+                "time": 1580946675483
             },
             {
                 "stepId": "STEP2",
-                "stepName": "Submit Data: computers_4",
+                "stepName": "Url: Add a new computer",
                 "infFile": "t2.inf",
-                "time": 1580933753673
+                "time": 1580946675644
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: Submit",
+                "infFile": "t3.inf",
+                "time": 1580946677238
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: Add a new computer",
+                "infFile": "t4.inf",
+                "time": 1580946677385
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: Submit",
+                "infFile": "t5.inf",
+                "time": 1580946677669
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Add a new computer",
+                "infFile": "t6.inf",
+                "time": 1580946677873
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: Submit",
+                "infFile": "t7.inf",
+                "time": 1580946678129
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: Add a new computer",
+                "infFile": "t8.inf",
+                "time": 1580946678259
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: Submit",
+                "infFile": "t9.inf",
+                "time": 1580946678505
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: Add a new computer",
+                "infFile": "t10.inf",
+                "time": 1580946678663
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: Submit",
+                "infFile": "t11.inf",
+                "time": 1580946679016
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: Add a new computer",
+                "infFile": "t12.inf",
+                "time": 1580946679139
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Submit Data: Submit",
+                "infFile": "t13.inf",
+                "time": 1580946679388
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: Add a new computer",
+                "infFile": "t14.inf",
+                "time": 1580946679511
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Submit Data: Submit",
+                "infFile": "t15.inf",
+                "time": 1580946679747
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: Add a new computer",
+                "infFile": "t16.inf",
+                "time": 1580946679883
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Submit Data: Submit",
+                "infFile": "t17.inf",
+                "time": 1580946680106
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: Add a new computer",
+                "infFile": "t18.inf",
+                "time": 1580946680238
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Submit Data: Submit",
+                "infFile": "t19.inf",
+                "time": 1580946680489
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Submit Data: Sort by name",
+                "infFile": "t21.inf",
+                "time": 1580946680643
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Submit Data: Sort by another name",
+                "infFile": "t25.inf",
+                "time": 1580946680793
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Url: Next page",
+                "infFile": "t29.inf",
+                "time": 1580946680957
             }
         ],
-        "transactions": []
+        "transactions": [
+            {
+                "transactionName": "UC01_ComputerAdding",
+                "rawStartTime": 1580946675484,
+                "rawEndTime": 1580946680489,
+                "thinkTime": 0.0,
+                "wastedTime": 0.8698995113372803
+            },
+            {
+                "transactionName": "UC02_QuantityFinding",
+                "rawStartTime": 1580946680490,
+                "rawEndTime": 1580946680644,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04895758628845215
+            },
+            {
+                "transactionName": "UC03_CSVWriting",
+                "rawStartTime": 1580946680644,
+                "rawEndTime": 1580946680963,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07973241806030274
+            }
+        ]
     }
 ]

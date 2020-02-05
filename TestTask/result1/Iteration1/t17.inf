@@ -1,0 +1,13 @@
+[t17]
+SnapshotXmlFile=snapshot_17.xml
+ContentType=text/html
+StepName=Submit Data: Submit
+Total=1
+FileName1=t17.html
+RequestHeaderFile=t17_RequestHeader.txt
+ResponseHeaderFile=t17_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Submit
+RequestBodyFile=t17_RequestBody.txt
+RawStepStartTime=1580946679883
+URL1=http://computer-database.gatling.io/computers

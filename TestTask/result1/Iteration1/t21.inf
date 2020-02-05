@@ -1,0 +1,13 @@
+[t21]
+SnapshotXmlFile=snapshot_20.xml
+ContentType=text/html
+StepName=Submit Data: Sort by name
+Total=1
+FileName1=t21.html
+RequestHeaderFile=t21_RequestHeader.txt
+ResponseHeaderFile=t21_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Sort by name
+RequestBodyFile=t21_RequestBody.txt
+RawStepStartTime=1580946680499
+URL1=http://computer-database.gatling.io/computers?f=ASUS

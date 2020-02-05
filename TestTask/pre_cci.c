@@ -1,4 +1,4 @@
-# 1 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\\\combined_TestTask.c"
+# 1 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\testtask\\\\combined_TestTask.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -964,7 +964,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\\\combined_TestTask.c" 2
+# 1 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\testtask\\\\combined_TestTask.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1130,7 +1130,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\\\combined_TestTask.c" 2
+# 2 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\testtask\\\\combined_TestTask.c" 2
 
 # 1 "globals.h" 1
 
@@ -2587,14 +2587,14 @@ void
  
 
 
-# 3 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\\\combined_TestTask.c" 2
+# 3 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\testtask\\\\combined_TestTask.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\\\combined_TestTask.c" 2
+# 4 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\testtask\\\\combined_TestTask.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2832,15 +2832,15 @@ int vsprintf(char *, const char *, va_list);
 
 # 3 "Action.c" 2
 
-	FILE *fp;
-	int counter;
-	char Item[64];
+	int counter, rows, page;
+	FILE *FileVarriable;  
+	char Item[64]; 
 	web_add_header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"); 
 	web_add_header("Accept", "text/html,application/xhtml+xml,application/xml,image/webp,image/apng");
 	web_add_header("Connection", "keep-alive"); 
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
-	web_url("computers", 
+	web_url("Computers", 
 		"URL=http://computer-database.gatling.io/computers", 
 		"Resource=0", 
 		"RecContentType=text/html", 
@@ -2849,121 +2849,206 @@ int vsprintf(char *, const char *, va_list);
 		"Mode=HTTP", 
 		"LAST");
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+	lr_start_transaction("UC01_ComputerAdding");
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+	 
+	for (counter = 1; counter <= atoi(lr_eval_string("{ComputersQuantity}")); counter++){
+		
+	 
+	web_url("Add a new computer", 
+		"URL=http://computer-database.gatling.io/computers/new", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://computer-database.gatling.io/computers", 
+		"Snapshot=t2.inf", 
+		"Mode=HTTP", 
+		"LAST");
+		
+ 	 
+    sprintf(Item, "Komus%d", counter);
+	lr_save_string(Item,"ItemName");
+		
+	 
+	web_submit_data("Submit", 
+		"Action=http://computer-database.gatling.io/computers", 
+		"Method=POST", 
+		"RecContentType=text/html", 
+		"Referer=http://computer-database.gatling.io/computers/new", 
+		"Snapshot=t3.inf", 
+		"Mode=HTTP", 
+		"ITEMDATA", 
+		"Name=name", "Value={ItemName}", "ENDITEM", 
+		"Name=introduced", "Value={FutureDate}", "ENDITEM",  
+		"Name=discontinued", "Value=2020-01-01", "ENDITEM",  
+		"Name=company", "Value={ItemNumber}", "ENDITEM",  
+		"LAST");
+	}
+	
+	lr_end_transaction("UC01_ComputerAdding",2);
 
 	lr_think_time(15);
-	
- 
- 
- 
-	
-	web_reg_save_param_ex(
-	    "ParamName=cellString", 
-	    "LB/IC=<td>",
-	    "RB/IC=<\/td>",
-	    "Ordinal=all",
-	    "SEARCH_FILTERS",
-	        "Scope=body",
-		"LAST");
 
+	lr_start_transaction("UC02_QuantityFinding");
+
+	 
+	web_reg_save_param_regexp (
+    	"ParamName=SearchItemQuantity",
+    	"RegExp=<a>Displaying.*to.*of (.*)<",
+    	 
+		"LAST" );
 	
-	web_submit_data("computers_4", 
+	 
+	web_submit_data("Sort by name", 
 		"Action=http://computer-database.gatling.io/computers", 
 		"Method=GET", 
 		"EncType=", 
 		"RecContentType=text/html", 
-		"Referer=http://computer-database.gatling.io/computers?f={QuantityFindingCriteria}", 
-		"Snapshot=t8.inf", 
+		"Referer=http://computer-database.gatling.io/computers", 
+		"Snapshot=t4.inf", 
+		"Mode=HTTP", 
+		"ITEMDATA", 
+		"Name=f", "Value={QuantityFindingCriteria}", "ENDITEM", 
+		"LAST");
+	
+
+	 
+	lr_message("Quantity of requested item: %s", lr_eval_string("{SearchItemQuantity}")); 
+
+	lr_end_transaction("UC02_QuantityFinding",2);
+
+	lr_think_time(15);
+	
+	lr_start_transaction("UC03_CSVWriting");
+	
+	 
+
+
+
+
+
+	web_reg_save_param_regexp (
+    	"ParamName=cellString",
+    	"RegExp=<td>\\s+(\\S.*)\\s*<\/td>",
+    	"Ordinal=All",
+		"LAST" );
+	web_reg_save_param_regexp (
+    	"ParamName=1stCol",
+    	"RegExp=<td><a href\=.*>(.*)<\/a>",
+    	"Ordinal=All",
+		"LAST" );
+	web_reg_save_param_regexp (
+    	"ParamName=nextButton",
+    	"RegExp=class\=\"next(.*)\"",
+		"LAST" );
+	
+	
+	web_submit_data("Sort by another name", 
+		"Action=http://computer-database.gatling.io/computers", 
+		"Method=GET", 
+		"EncType=", 
+		"RecContentType=text/html", 
+		"Referer=http://computer-database.gatling.io/computers?f={InfoFindingCriteria}", 
+		"Snapshot=t5.inf", 
 		"Mode=HTTP", 
 		"ITEMDATA", 
 		"Name=f", "Value=IBM", "ENDITEM", 
 		"LAST");
 	
+	FileVarriable = fopen (lr_eval_string("{FilePath}"),"a");
+	rows = 1;
+	
 	 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+    for (counter = 1; counter <= atoi(lr_eval_string("{cellString_count}")); counter=counter+3){
+	
+		 
+		if (strstr(lr_paramarr_idx("cellString", counter), "<em>")==0){
+			lr_save_string(lr_paramarr_idx("cellString", counter), "B");
+		}
+		else lr_save_string("-", "B");
+		if (strstr(lr_paramarr_idx("cellString", counter+1), "<em>")==0){
+			lr_save_string(lr_paramarr_idx("cellString", counter+1), "C");
+		}
+		else lr_save_string("-", "C");
+		if (strstr(lr_paramarr_idx("cellString", counter+2), "<em>")==0){
+			lr_save_string(lr_paramarr_idx("cellString", counter+2), "D");
+		}
+		else lr_save_string("-", "D");
+		lr_save_string(lr_paramarr_idx("1stCol", rows), "A");
+		
+		fprintf (FileVarriable, "%s;%s;%s;%s\n", lr_eval_string("{A}"), lr_eval_string("{B}"), lr_eval_string("{C}"), lr_eval_string("{D}"));
+		rows++;
+	}
+	page = 1;
+	
+	while(strlen(lr_eval_string("{nextButton}")) < 1){
+		
+		lr_save_int(page, "page");
+		
+		web_reg_save_param_regexp (
+    	"ParamName=cellString",
+    	"RegExp=<td>\\s+(\\S.*)\\s*<\/td>",
+    	"Ordinal=All",
+		"LAST" );
+		web_reg_save_param_regexp (
+    	"ParamName=1stCol",
+    	"RegExp=<td><a href\=.*>(.*)<\/a>",
+    	"Ordinal=All",
+		"LAST" );
+		web_reg_save_param_regexp (
+    	"ParamName=nextButton",
+    	"RegExp=class\=\"next(.*)\"",
+		"LAST" );
+		
+		web_url("Next page", 
+			"URL=http://computer-database.gatling.io/computers?p={page}&f={InfoFindingCriteria}", 
+			"Resource=0", 
+			"RecContentType=text/html", 
+			 
+			"Snapshot=t6.inf", 
+			"Mode=HTTP", 
+			"LAST");
+		
+		rows = 1;
+		 
+	    for (counter = 1; counter <= atoi(lr_eval_string("{cellString_count}")); counter=counter+3){
+		
+			 
+			if (strstr(lr_paramarr_idx("cellString", counter), "<em>")==0){
+				lr_save_string(lr_paramarr_idx("cellString", counter), "B");
+			}
+			else lr_save_string("-", "B");
+			if (strstr(lr_paramarr_idx("cellString", counter+1), "<em>")==0){
+				lr_save_string(lr_paramarr_idx("cellString", counter+1), "C");
+			}
+			else lr_save_string("-", "C");
+			if (strstr(lr_paramarr_idx("cellString", counter+2), "<em>")==0){
+				lr_save_string(lr_paramarr_idx("cellString", counter+2), "D");
+			}
+			else lr_save_string("-", "D");
+			lr_save_string(lr_paramarr_idx("1stCol", rows), "A");
+			
+			fprintf (FileVarriable, "%s;%s;%s;%s\n", lr_eval_string("{A}"), lr_eval_string("{B}"), lr_eval_string("{C}"), lr_eval_string("{D}"));
+			rows++;
+		}
+		
+		page++;
+	}
+	
+	fclose (FileVarriable);
+	
 	lr_end_transaction("UC03_CSVWriting",2);
+	
+	 
+# 221 "Action.c"
 
 	return 0;
 }
-# 5 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\\\combined_TestTask.c" 2
+# 5 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\testtask\\\\combined_TestTask.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\\\combined_TestTask.c" 2
+# 6 "c:\\users\\alexandrsunlight\\documents\\vugen\\scripts\\testtask\\testtask\\\\combined_TestTask.c" 2
 

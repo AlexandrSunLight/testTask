@@ -1,13 +1,13 @@
 [t2]
 SnapshotXmlFile=snapshot_2.xml
 ContentType=text/html
-StepName=Submit Data: computers_4
+StepName=Url: Add a new computer
 Total=1
 FileName1=t2.html
 RequestHeaderFile=t2_RequestHeader.txt
 ResponseHeaderFile=t2_ResponseHeader.txt
 RawStepEndTime=0
-RawStepName=computers_4
+RawStepName=Add a new computer
 RequestBodyFile=t2_RequestBody.txt
-RawStepStartTime=1580933753454
-URL1=http://computer-database.gatling.io/computers?f=IBM
+RawStepStartTime=1580946675485
+URL1=http://computer-database.gatling.io/computers/new

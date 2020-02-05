@@ -1,0 +1,13 @@
+[t29]
+SnapshotXmlFile=snapshot_22.xml
+ContentType=text/html
+StepName=Url: Next page
+Total=1
+FileName1=t29.html
+RequestHeaderFile=t29_RequestHeader.txt
+ResponseHeaderFile=t29_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Next page
+RequestBodyFile=t29_RequestBody.txt
+RawStepStartTime=1580946680803
+URL1=http://computer-database.gatling.io/computers?p=1&f=IBM
